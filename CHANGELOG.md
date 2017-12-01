@@ -18,11 +18,13 @@ Here are some highlights ✨:
 ### Breaking change
 
 - [Select] Remove InputClasses (#9159) @oliviertassinari
-
-It's a revert.
-I have made the unwise call of adding the InputClasses property in an unrelated refactorization pull-request #8942.
-It was not taking the input classes property into account.
-It was a breaking change and not needed.
+It's a revert. I have made the unwise call of adding the InputClasses property in an unrelated refactorization pull-request #8942. It was not taking the input classes property into account. It was a breaking change and not needed.
+- [core] Reduce bundle size by 2kB gzipped (#9129) @oliviertassinari
+We have removed some jss plugins from the default bundle:
+  - [jss-expand](https://github.com/cssinjs/jss-expand) (1.3 kB)
+  - [jss-compose](https://github.com/cssinjs/jss-compose) (426 B)
+  - [jss-extend](https://github.com/cssinjs/jss-extend) (702 B)
+  - [jss-template](https://github.com/cssinjs/jss-template) (330 B)
 
 #### Component Fixes / Enhancements
 
