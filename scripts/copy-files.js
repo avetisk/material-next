@@ -38,7 +38,7 @@ function createPackageFile() {
 
       const minimalPackage = {
         ...packageDataOther,
-        name: 'material-ui',
+        name: '@material-next/core',
         main: './index.js',
         module: './index.es.js',
         private: false,

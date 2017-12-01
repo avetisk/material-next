@@ -3,9 +3,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import compose from 'recompose/compose';
-import { withStyles } from 'material-ui/styles';
-import withWidth from 'material-ui/utils/withWidth';
-import Typography from 'material-ui/Typography';
+import { withStyles } from '@material-next/core/styles';
+import withWidth from '@material-next/core/utils/withWidth';
+import Typography from '@material-next/core/Typography';
 
 const styles = theme => ({
   root: {

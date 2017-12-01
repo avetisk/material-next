@@ -1,8 +1,8 @@
 // @flow weak
 
 import React from 'react';
-import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
-import Button from 'material-ui/Button';
+import { MuiThemeProvider, createMuiTheme } from '@material-next/core/styles';
+import Button from '@material-next/core/Button';
 
 const theme = createMuiTheme({
   overrides: {

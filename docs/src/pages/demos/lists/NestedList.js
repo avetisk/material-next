@@ -2,16 +2,16 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import ListSubheader from 'material-ui/List/ListSubheader';
-import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
-import Collapse from 'material-ui/transitions/Collapse';
-import InboxIcon from 'material-ui-icons/MoveToInbox';
-import DraftsIcon from 'material-ui-icons/Drafts';
-import SendIcon from 'material-ui-icons/Send';
-import ExpandLess from 'material-ui-icons/ExpandLess';
-import ExpandMore from 'material-ui-icons/ExpandMore';
-import StarBorder from 'material-ui-icons/StarBorder';
+import { withStyles } from '@material-next/core/styles';
+import ListSubheader from '@material-next/core/List/ListSubheader';
+import List, { ListItem, ListItemIcon, ListItemText } from '@material-next/core/List';
+import Collapse from '@material-next/core/transitions/Collapse';
+import InboxIcon from '@material-next/icons/MoveToInbox';
+import DraftsIcon from '@material-next/icons/Drafts';
+import SendIcon from '@material-next/icons/Send';
+import ExpandLess from '@material-next/icons/ExpandLess';
+import ExpandMore from '@material-next/icons/ExpandMore';
+import StarBorder from '@material-next/icons/StarBorder';
 
 const styles = theme => ({
   root: {

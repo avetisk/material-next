@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 import kebabCase from 'lodash/kebabCase';
 import warning from 'warning';
 import Head from 'next/head';
-import { withStyles } from 'material-ui/styles';
-import Button from 'material-ui/Button';
+import { withStyles } from '@material-next/core/styles';
+import Button from '@material-next/core/Button';
 import AppContent from 'docs/src/modules/components/AppContent';
 import MarkdownElement from 'docs/src/modules/components/MarkdownElement';
 import Demo from 'docs/src/modules/components/Demo';
@@ -25,7 +25,7 @@ const styles = {
 };
 
 const demoRegexp = /^demo='(.*)'$/;
-const SOURCE_CODE_ROOT_URL = 'https://github.com/mui-org/material-ui/tree/v1-beta';
+const SOURCE_CODE_ROOT_URL = 'https://github.com/@material-next/core/@material-next/core/tree/v1-beta';
 
 type InjectedProps = {
   classes: Object,
@@ -66,7 +66,7 @@ function MarkdownDocs(props: Props & InjectedProps, context: Object) {
   return (
     <AppContent className={classes.root}>
       <Head>
-        <title>{`${getTitle(markdown)} - Material-UI`}</title>
+        <title>{`${getTitle(markdown)} - Material-Next`}</title>
       </Head>
       <div className={classes.header}>
         <Button component="a" href={`${SOURCE_CODE_ROOT_URL}${sourceLocation}`}>

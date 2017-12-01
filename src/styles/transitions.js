@@ -61,17 +61,17 @@ export default {
 
     warning(
       isString(props) || Array.isArray(props),
-      'Material-UI: argument "props" must be a string or Array',
+      'Material-Next: argument "props" must be a string or Array',
     );
     warning(
       isNumber(durationOption),
-      `Material-UI: argument "duration" must be a number but found ${durationOption}`,
+      `Material-Next: argument "duration" must be a number but found ${durationOption}`,
     );
-    warning(isString(easingOption), 'Material-UI: argument "easing" must be a string');
-    warning(isNumber(delay), 'Material-UI: argument "delay" must be a string');
+    warning(isString(easingOption), 'Material-Next: argument "easing" must be a string');
+    warning(isNumber(delay), 'Material-Next: argument "delay" must be a string');
     warning(
       Object.keys(other).length === 0,
-      `Material-UI: unrecognized argument(s) [${Object.keys(other).join(',')}]`,
+      `Material-Next: unrecognized argument(s) [${Object.keys(other).join(',')}]`,
     );
 
     return (Array.isArray(props) ? props : [props])

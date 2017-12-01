@@ -1,6 +1,6 @@
 # Svg Icons
 
-The icons provided here are intended for use internally within Material-UI components.
+The icons provided here are intended for use internally within Material-Next components.
 
-For the complete set of SVG Material icons previously provided with Material-UI,
-please refer to the [material-ui-icons](https://www.npmjs.com/package/material-ui-icons) NPM package.
+For the complete set of SVG Material icons previously provided with Material-Next,
+please refer to the [@material-next/icons](https://www.npmjs.com/package/@material-next/icons) NPM package.

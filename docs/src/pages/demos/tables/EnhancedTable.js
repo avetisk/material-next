@@ -4,7 +4,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from '@material-next/core/styles';
 import keycode from 'keycode';
 import Table, {
   TableBody,
@@ -14,15 +14,15 @@ import Table, {
   TablePagination,
   TableRow,
   TableSortLabel,
-} from 'material-ui/Table';
-import Toolbar from 'material-ui/Toolbar';
-import Typography from 'material-ui/Typography';
-import Paper from 'material-ui/Paper';
-import Checkbox from 'material-ui/Checkbox';
-import IconButton from 'material-ui/IconButton';
-import Tooltip from 'material-ui/Tooltip';
-import DeleteIcon from 'material-ui-icons/Delete';
-import FilterListIcon from 'material-ui-icons/FilterList';
+} from '@material-next/core/Table';
+import Toolbar from '@material-next/core/Toolbar';
+import Typography from '@material-next/core/Typography';
+import Paper from '@material-next/core/Paper';
+import Checkbox from '@material-next/core/Checkbox';
+import IconButton from '@material-next/core/IconButton';
+import Tooltip from '@material-next/core/Tooltip';
+import DeleteIcon from '@material-next/icons/Delete';
+import FilterListIcon from '@material-next/icons/FilterList';
 
 let counter = 0;
 function createData(name, calories, fat, carbs, protein) {

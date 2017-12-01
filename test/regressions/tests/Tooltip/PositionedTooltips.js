@@ -2,10 +2,10 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Grid from 'material-ui/Grid';
-import Button from 'material-ui/Button';
-import Tooltip from 'material-ui/Tooltip';
+import { withStyles } from '@material-next/core/styles';
+import Grid from '@material-next/core/Grid';
+import Button from '@material-next/core/Button';
+import Tooltip from '@material-next/core/Tooltip';
 
 const styles = {
   root: {

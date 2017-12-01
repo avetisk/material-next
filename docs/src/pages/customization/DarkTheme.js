@@ -1,7 +1,7 @@
 // @flow weak
 
 import React from 'react';
-import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
+import { MuiThemeProvider, createMuiTheme } from '@material-next/core/styles';
 import WithTheme from './WithTheme';
 
 const theme = createMuiTheme({

@@ -228,7 +228,7 @@ class Tooltip extends React.Component<ProvidedProps & Props, State> {
         // $FlowFixMe
         !this.children.tagName.toLowerCase() === 'button',
       [
-        'Material-UI: you are providing a disabled button children to the Tooltip component.',
+        'Material-Next: you are providing a disabled button children to the Tooltip component.',
         'A disabled element do not fire events.',
         'But the Tooltip needs to listen to the children element events to display the title.',
         '',
@@ -414,7 +414,7 @@ class Tooltip extends React.Component<ProvidedProps & Props, State> {
       warning(
         !childrenProp.props.title,
         [
-          'Material-UI: you have been providing a `title` property to the child of <Tooltip />.',
+          'Material-Next: you have been providing a `title` property to the child of <Tooltip />.',
           `Remove this title property \`${childrenProp.props.title}\` or the Tooltip component.`,
         ].join('\n'),
       );

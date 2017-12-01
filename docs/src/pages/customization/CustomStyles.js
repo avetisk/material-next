@@ -2,9 +2,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import Checkbox from 'material-ui/Checkbox';
-import { createMuiTheme, MuiThemeProvider, withStyles } from 'material-ui/styles';
-import orange from 'material-ui/colors/orange';
+import Checkbox from '@material-next/core/Checkbox';
+import { createMuiTheme, MuiThemeProvider, withStyles } from '@material-next/core/styles';
+import orange from '@material-next/core/colors/orange';
 
 const styles = theme => ({
   danger: {

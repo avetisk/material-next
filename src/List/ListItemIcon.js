@@ -26,7 +26,7 @@ type ProvidedProps = {
 export type Props = {
   /**
    * The content of the component, normally `Icon`, `SvgIcon`,
-   * or a `material-ui-icons` SVG icon component.
+   * or a `@material-next/icons` SVG icon component.
    */
   children: Element<any>,
   /**

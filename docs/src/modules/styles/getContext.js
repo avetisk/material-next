@@ -3,11 +3,11 @@
 
 import { create, SheetsRegistry } from 'jss';
 import rtl from 'jss-rtl';
-import { preset } from 'material-ui/styles/withStyles';
-import { createMuiTheme } from 'material-ui/styles';
-import blue from 'material-ui/colors/blue';
-import pink from 'material-ui/colors/pink';
-import createGenerateClassName from 'material-ui/styles/createGenerateClassName';
+import { preset } from '@material-next/core/styles/withStyles';
+import { createMuiTheme } from '@material-next/core/styles';
+import blue from '@material-next/core/colors/blue';
+import pink from '@material-next/core/colors/pink';
+import createGenerateClassName from '@material-next/core/styles/createGenerateClassName';
 
 export function getTheme(theme) {
   return createMuiTheme({

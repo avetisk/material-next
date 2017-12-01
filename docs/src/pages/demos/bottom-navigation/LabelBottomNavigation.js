@@ -2,12 +2,12 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import BottomNavigation, { BottomNavigationButton } from 'material-ui/BottomNavigation';
-import RestoreIcon from 'material-ui-icons/Restore';
-import FavoriteIcon from 'material-ui-icons/Favorite';
-import LocationOnIcon from 'material-ui-icons/LocationOn';
-import FolderIcon from 'material-ui-icons/Folder';
+import { withStyles } from '@material-next/core/styles';
+import BottomNavigation, { BottomNavigationButton } from '@material-next/core/BottomNavigation';
+import RestoreIcon from '@material-next/icons/Restore';
+import FavoriteIcon from '@material-next/icons/Favorite';
+import LocationOnIcon from '@material-next/icons/LocationOn';
+import FolderIcon from '@material-next/icons/Folder';
 
 const styles = {
   root: {

@@ -3,15 +3,15 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Button from 'material-ui/Button';
-import Avatar from 'material-ui/Avatar';
-import List, { ListItem, ListItemAvatar, ListItemText } from 'material-ui/List';
-import Dialog, { DialogTitle } from 'material-ui/Dialog';
-import PersonIcon from 'material-ui-icons/Person';
-import AddIcon from 'material-ui-icons/Add';
-import Typography from 'material-ui/Typography';
-import blue from 'material-ui/colors/blue';
+import { withStyles } from '@material-next/core/styles';
+import Button from '@material-next/core/Button';
+import Avatar from '@material-next/core/Avatar';
+import List, { ListItem, ListItemAvatar, ListItemText } from '@material-next/core/List';
+import Dialog, { DialogTitle } from '@material-next/core/Dialog';
+import PersonIcon from '@material-next/icons/Person';
+import AddIcon from '@material-next/icons/Add';
+import Typography from '@material-next/core/Typography';
+import blue from '@material-next/core/colors/blue';
 
 const emails = ['username@gmail.com', 'user02@gmail.com'];
 const styles = {

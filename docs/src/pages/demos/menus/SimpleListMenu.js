@@ -2,9 +2,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import List, { ListItem, ListItemText } from 'material-ui/List';
-import Menu, { MenuItem } from 'material-ui/Menu';
+import { withStyles } from '@material-next/core/styles';
+import List, { ListItem, ListItemText } from '@material-next/core/List';
+import Menu, { MenuItem } from '@material-next/core/Menu';
 
 const styles = theme => ({
   root: {
@@ -15,7 +15,7 @@ const styles = theme => ({
 });
 
 const options = [
-  'Show some love to Material-UI',
+  'Show some love to Material-Next',
   'Show all notification content',
   'Hide sensitive notification content',
   'Hide all notification content',

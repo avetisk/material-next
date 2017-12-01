@@ -1,20 +1,20 @@
 # Contributing
 
-If you're reading this, you're awesome! Thank you for helping us make this project great and being a part of the Material-UI community. Here are a few guidelines that will help you along the way.
+If you're reading this, you're awesome! Thank you for helping us make this project great and being a part of the Material-Next community. Here are a few guidelines that will help you along the way.
 
 ## Submitting a Pull Request
 
-Material-UI is a community project, so pull requests are always welcome, but before working on a large change, it is best to open an issue first to discuss it with the maintainers.
+Material-Next is a community project, so pull requests are always welcome, but before working on a large change, it is best to open an issue first to discuss it with the maintainers.
 
 When in doubt, keep your pull requests small. To give a PR the best chance of getting accepted, don't bundle more than one feature or bug fix per pull request. It's always best to create two smaller PRs than one big one.
 
 As with issues, please begin the title with [ComponentName].
 
-When adding new features or modifying existing, please attempt to include tests to confirm the new behaviour. You can read more about our test setup [here](https://github.com/mui-org/material-ui/blob/v1-beta/test/README.md).
+When adding new features or modifying existing, please attempt to include tests to confirm the new behaviour. You can read more about our test setup [here](https://github.com/material-next/material-next/blob/v1-beta/test/README.md).
 
 ### Branch Structure
 
-All stable releases are tagged ([view tags](https://github.com/mui-org/material-ui/tags)). At any given time, `v1-beta` represents the latest development version of the library.
+All stable releases are tagged ([view tags](https://github.com/material-next/material-next/tags)). At any given time, `v1-beta` represents the latest development version of the library.
 Patches or hotfix releases are prepared on an independent branch.
 
 #### `v1-beta` is unsafe
@@ -25,7 +25,7 @@ We will do our best to keep `v1-beta` in good shape, with tests passing at all t
 
 Please create a new branch from an up to date v1-beta on your fork. (Note, urgent hotfixes should be branched off the latest stable release rather than v1-beta)
 
-1. Fork the Material-UI repository on Github
+1. Fork the Material-Next repository on Github
 2. Clone your fork to your local machine `git clone git@github.com:<yourname>/material-ui.git`
 3. Create a branch `git checkout -b my-topic-branch`
 4. Make your changes, lint, then push to to GitHub with `git push --set-upstream origin my-topic-branch`.
@@ -33,7 +33,7 @@ Please create a new branch from an up to date v1-beta on your fork. (Note, urgen
 
 If you have an existing local repository, please update it before you start, to minimise the chance of merge conflicts.
 ```js
-git remote add upstream git@github.com:mui-org/material-ui.git
+git remote add upstream git@github.com:material-next/material-next.git
 git checkout v1-beta
 git pull upstream v1-beta
 git checkout -b my-topic-branch
@@ -42,7 +42,7 @@ yarn
 
 ### Testing the documentation site
 
-The documentation site is built with Material-UI and contains examples of all the components.
+The documentation site is built with Material-Next and contains examples of all the components.
 To get started:
 ```js
 yarn
@@ -54,7 +54,7 @@ Test coverage is limited at present, but where possible, please add tests for an
 
 ### Coding style
 
-Please follow the coding style of the current code base. Material-UI uses eslint, so if possible, enable linting in your editor to get real-time feedback. The linting rules are also run when Webpack recompiles your changes, and can be run manually with `yarn lint`.
+Please follow the coding style of the current code base. Material-Next uses eslint, so if possible, enable linting in your editor to get real-time feedback. The linting rules are also run when Webpack recompiles your changes, and can be run manually with `yarn lint`.
 
 You can also run `yarn prettier` to reformat the code.
 
@@ -110,12 +110,12 @@ Then, you will need to add the following code:
 
 #### 4. You are done 🎉!
 
-In case you missed something, [we have a real example that can be used as a summary report]((https://github.com/mui-org/material-ui/pull/8922/files)).
+In case you missed something, [we have a real example that can be used as a summary report]((https://github.com/material-next/material-next/pull/8922/files)).
 
 ## Roadmap
 
-To get a sense of where Material-UI is heading, or for ideas on where you could contribute, take a look at the [ROADMAP](https://github.com/mui-org/material-ui/blob/v1-beta/ROADMAP.md).
+To get a sense of where Material-Next is heading, or for ideas on where you could contribute, take a look at the [ROADMAP](https://github.com/material-next/material-next/blob/v1-beta/ROADMAP.md).
 
 ## License
 
-By contributing your code to the mui-org/material-ui GitHub repository, you agree to license your contribution under the MIT license.
+By contributing your code to the material-next/material-next GitHub repository, you agree to license your contribution under the MIT license.

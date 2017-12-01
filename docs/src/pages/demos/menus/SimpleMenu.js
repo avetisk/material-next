@@ -1,8 +1,8 @@
 /* eslint-disable flowtype/require-valid-file-annotation */
 
 import React from 'react';
-import Button from 'material-ui/Button';
-import Menu, { MenuItem } from 'material-ui/Menu';
+import Button from '@material-next/core/Button';
+import Menu, { MenuItem } from '@material-next/core/Menu';
 
 class SimpleMenu extends React.Component {
   state = {

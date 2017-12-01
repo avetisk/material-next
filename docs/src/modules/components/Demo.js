@@ -2,12 +2,12 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import IconButton from 'material-ui/IconButton';
-import Collapse from 'material-ui/transitions/Collapse';
-import CodeIcon from 'material-ui-icons/Code';
+import { withStyles } from '@material-next/core/styles';
+import IconButton from '@material-next/core/IconButton';
+import Collapse from '@material-next/core/transitions/Collapse';
+import CodeIcon from '@material-next/icons/Code';
 import MarkdownElement from 'docs/src/modules/components/MarkdownElement';
-import Tooltip from 'material-ui/Tooltip';
+import Tooltip from '@material-next/core/Tooltip';
 
 const styles = theme => ({
   root: {

@@ -2,11 +2,11 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
-import Divider from 'material-ui/Divider';
-import InboxIcon from 'material-ui-icons/Inbox';
-import DraftsIcon from 'material-ui-icons/Drafts';
+import { withStyles } from '@material-next/core/styles';
+import List, { ListItem, ListItemIcon, ListItemText } from '@material-next/core/List';
+import Divider from '@material-next/core/Divider';
+import InboxIcon from '@material-next/icons/Inbox';
+import DraftsIcon from '@material-next/icons/Drafts';
 
 const styles = theme => ({
   root: {

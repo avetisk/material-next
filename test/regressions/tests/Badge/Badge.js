@@ -1,8 +1,8 @@
 // @flow
 
 import React from 'react';
-import Badge from 'material-ui/Badge';
-import Icon from 'material-ui/Icon';
+import Badge from '@material-next/core/Badge';
+import Icon from '@material-next/core/Icon';
 
 export default function SimpleBadge() {
   return (

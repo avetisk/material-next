@@ -1,8 +1,8 @@
 // @flow
 
 import React from 'react';
-import Radio from 'material-ui/Radio';
-import { FormControlLabel } from 'material-ui/Form';
+import Radio from '@material-next/core/Radio';
+import { FormControlLabel } from '@material-next/core/Form';
 
 export default function DisabledRadio() {
   return (

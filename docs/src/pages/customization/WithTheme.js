@@ -2,8 +2,8 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import Typography from 'material-ui/Typography';
-import { withTheme } from 'material-ui/styles';
+import Typography from '@material-next/core/Typography';
+import { withTheme } from '@material-next/core/styles';
 
 function WithTheme(props) {
   const { theme } = props;

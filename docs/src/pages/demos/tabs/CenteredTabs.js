@@ -2,9 +2,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Paper from 'material-ui/Paper';
-import Tabs, { Tab } from 'material-ui/Tabs';
+import { withStyles } from '@material-next/core/styles';
+import Paper from '@material-next/core/Paper';
+import Tabs, { Tab } from '@material-next/core/Tabs';
 
 const styles = theme => ({
   root: {

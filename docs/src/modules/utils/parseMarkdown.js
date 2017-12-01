@@ -43,5 +43,5 @@ export function getContents(markdown: string) {
 export function getTitle(markdown: string) {
   const matches = markdown.match(titleRegExp);
 
-  return matches ? matches[1] : 'Material-UI';
+  return matches ? matches[1] : 'Material-Next';
 }

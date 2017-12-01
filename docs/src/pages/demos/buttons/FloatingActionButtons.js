@@ -2,10 +2,10 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Button from 'material-ui/Button';
-import AddIcon from 'material-ui-icons/Add';
-import ModeEditIcon from 'material-ui-icons/ModeEdit';
+import { withStyles } from '@material-next/core/styles';
+import Button from '@material-next/core/Button';
+import AddIcon from '@material-next/icons/Add';
+import ModeEditIcon from '@material-next/icons/ModeEdit';
 
 const styles = theme => ({
   button: {

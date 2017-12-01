@@ -1,6 +1,6 @@
 # Composition
 
-Material-UI tries to make composition as easy as possible.
+Material-Next tries to make composition as easy as possible.
 
 ## Wrapping components
 

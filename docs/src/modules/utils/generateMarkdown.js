@@ -5,7 +5,7 @@ import recast from 'recast';
 import kebabCase from 'lodash/kebabCase';
 import { pageToTitle } from './helpers';
 
-const SOURCE_CODE_ROOT_URL = 'https://github.com/mui-org/material-ui/tree/v1-beta';
+const SOURCE_CODE_ROOT_URL = 'https://github.com/@material-next/core/@material-next/core/tree/v1-beta';
 
 function generateHeader(reactAPI) {
   return ['---', `filename: ${reactAPI.filename}`, '---'].join('\n');
@@ -199,7 +199,7 @@ function generateClasses(reactAPI) {
   return reactAPI.styles.classes.length
     ? `## CSS API
 
-You can override all the class names injected by Material-UI thanks to the \`classes\` property.
+You can override all the class names injected by Material-Next thanks to the \`classes\` property.
 This property accepts the following keys:
 ${reactAPI.styles.classes.map(className => `- \`${className}\``).join('\n')}
 

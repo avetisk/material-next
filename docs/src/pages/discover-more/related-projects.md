@@ -1,10 +1,10 @@
 # Related projects
 
-## Material-UI Specific Projects
+## Material-Next Specific Projects
 
-- [dx-react-grid-material-ui](https://devexpress.github.io/devextreme-reactive/react/grid/) A data grid for Material-UI with paging, sorting, filtering, grouping and editing features.
-- [material-ui-time-picker](https://github.com/TeamWertarbyte/material-ui-time-picker) A TimePicker for Material-UI.
-- [material-ui-pickers](https://github.com/dmtrKovalenko/material-ui-pickers) Components, that implement Material Design date and time pickers for Material-UI.
+- [dx-react-grid-material-ui](https://devexpress.github.io/devextreme-reactive/react/grid/) A data grid for Material-Next with paging, sorting, filtering, grouping and editing features.
+- [material-ui-time-picker](https://github.com/TeamWertarbyte/material-ui-time-picker) A TimePicker for Material-Next.
+- [material-ui-pickers](https://github.com/dmtrKovalenko/material-ui-pickers) Components, that implement Material Design date and time pickers for Material-Next.
 
 ## Complementary Projects
 

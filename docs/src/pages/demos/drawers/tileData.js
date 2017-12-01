@@ -2,14 +2,14 @@
 // This file is shared across the demos.
 
 import React from 'react';
-import { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
-import InboxIcon from 'material-ui-icons/MoveToInbox';
-import DraftsIcon from 'material-ui-icons/Drafts';
-import StarIcon from 'material-ui-icons/Star';
-import SendIcon from 'material-ui-icons/Send';
-import MailIcon from 'material-ui-icons/Mail';
-import DeleteIcon from 'material-ui-icons/Delete';
-import ReportIcon from 'material-ui-icons/Report';
+import { ListItem, ListItemIcon, ListItemText } from '@material-next/core/List';
+import InboxIcon from '@material-next/icons/MoveToInbox';
+import DraftsIcon from '@material-next/icons/Drafts';
+import StarIcon from '@material-next/icons/Star';
+import SendIcon from '@material-next/icons/Send';
+import MailIcon from '@material-next/icons/Mail';
+import DeleteIcon from '@material-next/icons/Delete';
+import ReportIcon from '@material-next/icons/Report';
 
 export const mailFolderListItems = (
   <div>

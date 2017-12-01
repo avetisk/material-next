@@ -242,7 +242,7 @@ describe('<SelectInput />', () => {
       shallow(<SelectInput {...props} multiple native />);
       assert.match(
         consoleErrorMock.args()[0][0],
-        /Material-UI: you can not use the `native` and `multiple`/,
+        /Material-Next: you can not use the `native` and `multiple`/,
       );
     });
 

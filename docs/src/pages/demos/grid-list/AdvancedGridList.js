@@ -2,10 +2,10 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import { GridList, GridListTile, GridListTileBar } from 'material-ui/GridList';
-import IconButton from 'material-ui/IconButton';
-import StarBorderIcon from 'material-ui-icons/StarBorder';
+import { withStyles } from '@material-next/core/styles';
+import { GridList, GridListTile, GridListTileBar } from '@material-next/core/GridList';
+import IconButton from '@material-next/core/IconButton';
+import StarBorderIcon from '@material-next/icons/StarBorder';
 import tileData from './tileData';
 
 const styles = theme => ({

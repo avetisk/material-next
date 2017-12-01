@@ -1,10 +1,10 @@
 // @flow weak
 
 import React from 'react';
-import Grid from 'material-ui/Grid';
-import Paper from 'material-ui/Paper';
-import Table, { TableBody, TableCell, TableHead, TableRow } from 'material-ui/Table';
-import type { Padding } from 'material-ui/Table/TableCell';
+import Grid from '@material-next/core/Grid';
+import Paper from '@material-next/core/Paper';
+import Table, { TableBody, TableCell, TableHead, TableRow } from '@material-next/core/Table';
+import type { Padding } from '@material-next/core/Table/TableCell';
 
 type Props = {
   padding: Padding,

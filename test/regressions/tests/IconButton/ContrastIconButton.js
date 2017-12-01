@@ -1,8 +1,8 @@
 // @flow
 
 import React from 'react';
-import IconButton from 'material-ui/IconButton';
-import deepOrange from 'material-ui/colors/deepOrange';
+import IconButton from '@material-next/core/IconButton';
+import deepOrange from '@material-next/core/colors/deepOrange';
 
 export default function ContrastIconButton() {
   return (

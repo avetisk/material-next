@@ -2,17 +2,17 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from '@material-next/core/styles';
 import List, {
   ListItem,
   ListItemIcon,
   ListItemSecondaryAction,
   ListItemText,
   ListSubheader,
-} from 'material-ui/List';
-import Switch from 'material-ui/Switch';
-import WifiIcon from 'material-ui-icons/Wifi';
-import BluetoothIcon from 'material-ui-icons/Bluetooth';
+} from '@material-next/core/List';
+import Switch from '@material-next/core/Switch';
+import WifiIcon from '@material-next/icons/Wifi';
+import BluetoothIcon from '@material-next/icons/Bluetooth';
 
 const styles = theme => ({
   root: {

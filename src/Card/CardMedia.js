@@ -80,7 +80,7 @@ class CardMedia extends React.Component<ProvidedProps & Props> {
 
     warning(
       Boolean(image || src),
-      'Material-UI: either `image` or `src` property must be specified.',
+      'Material-Next: either `image` or `src` property must be specified.',
     );
 
     const isMediaComponent = mediaComponents.indexOf(ComponentProp) !== -1;

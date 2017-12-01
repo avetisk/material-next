@@ -2,8 +2,8 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Button from 'material-ui/Button';
+import { withStyles } from '@material-next/core/styles';
+import Button from '@material-next/core/Button';
 import Link from 'docs/src/modules/components/Link';
 
 const styles = theme => ({

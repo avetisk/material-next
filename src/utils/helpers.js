@@ -5,7 +5,7 @@ import warning from 'warning';
 export function capitalizeFirstLetter(string) {
   warning(
     typeof string === 'string',
-    'Material-UI: capitalizeFirstLetter(string) expects a string argument.',
+    'Material-Next: capitalizeFirstLetter(string) expects a string argument.',
   );
 
   return string.charAt(0).toUpperCase() + string.slice(1);
@@ -52,7 +52,7 @@ export function createChainedFunction(...funcs: Array<any>) {
     (acc, func) => {
       warning(
         typeof func === 'function',
-        'Material-UI: invalid Argument Type, must only provide functions, undefined, or null.',
+        'Material-Next: invalid Argument Type, must only provide functions, undefined, or null.',
       );
 
       return function chainedFunction(...args) {

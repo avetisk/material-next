@@ -6,16 +6,16 @@ import { connect } from 'react-redux';
 import compose from 'recompose/compose';
 import NProgress from 'nprogress';
 import Router from 'next/router';
-import { withStyles } from 'material-ui/styles';
-import Typography from 'material-ui/Typography';
-import AppBar from 'material-ui/AppBar';
-import Toolbar from 'material-ui/Toolbar';
-import IconButton from 'material-ui/IconButton';
-import Tooltip from 'material-ui/Tooltip';
-import MenuIcon from 'material-ui-icons/Menu';
-import LightbulbOutline from 'material-ui-icons/LightbulbOutline';
-import FormatTextdirectionLToR from 'material-ui-icons/FormatTextdirectionLToR';
-import FormatTextdirectionRToL from 'material-ui-icons/FormatTextdirectionRToL';
+import { withStyles } from '@material-next/core/styles';
+import Typography from '@material-next/core/Typography';
+import AppBar from '@material-next/core/AppBar';
+import Toolbar from '@material-next/core/Toolbar';
+import IconButton from '@material-next/core/IconButton';
+import Tooltip from '@material-next/core/Tooltip';
+import MenuIcon from '@material-next/icons/Menu';
+import LightbulbOutline from '@material-next/icons/LightbulbOutline';
+import FormatTextdirectionLToR from '@material-next/icons/FormatTextdirectionLToR';
+import FormatTextdirectionRToL from '@material-next/icons/FormatTextdirectionRToL';
 import Github from 'docs/src/modules/components/GitHub';
 import AppDrawer from 'docs/src/modules/components/AppDrawer';
 import AppSearch from 'docs/src/modules/components/AppSearch';
@@ -238,7 +238,7 @@ class AppFrame extends React.Component<any, any> {
               component="a"
               title="GitHub"
               color="contrast"
-              href="https://github.com/mui-org/material-ui/tree/v1-beta"
+              href="https://github.com/@material-next/core/@material-next/core/tree/v1-beta"
             >
               <Github />
             </IconButton>

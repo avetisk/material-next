@@ -1,8 +1,8 @@
 /* eslint-disable flowtype/require-valid-file-annotation */
 
 import React from 'react';
-import { FormControlLabel, FormGroup } from 'material-ui/Form';
-import Switch from 'material-ui/Switch';
+import { FormControlLabel, FormGroup } from '@material-next/core/Form';
+import Switch from '@material-next/core/Switch';
 
 class SwitchLabels extends React.Component {
   state = {

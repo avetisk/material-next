@@ -4,9 +4,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import compose from 'recompose/compose';
 import Head from 'next/head';
-import { withStyles } from 'material-ui/styles';
-import Typography from 'material-ui/Typography';
-import Button from 'material-ui/Button';
+import { withStyles } from '@material-next/core/styles';
+import Typography from '@material-next/core/Typography';
+import Button from '@material-next/core/Button';
 import withRoot from 'docs/src/modules/components/withRoot';
 import AppFooter from 'docs/src/modules/components/AppFooter';
 import Link from 'docs/src/modules/components/Link';
@@ -62,18 +62,18 @@ function PageHome(props) {
   return (
     <div className={classes.root}>
       <Head>
-        <title>Material-UI</title>
+        <title>Material-Next</title>
       </Head>
       <div className={classes.hero}>
         <div className={classes.content}>
           <img
-            src="/static/images/material-ui-logo.svg"
-            alt="Material-UI Logo"
+            src="/static/images/material-next-logo.svg"
+            alt="Material-Next Logo"
             className={classes.logo}
           />
           <div className={classes.text}>
             <Typography type="display2" component="h1" color="inherit" gutterBottom>
-              {'Material-UI'}
+              {'Material-Next'}
             </Typography>
             <Typography type="headline" component="h2" color="inherit" className={classes.headline}>
               {"React components that implement Google's Material Design."}

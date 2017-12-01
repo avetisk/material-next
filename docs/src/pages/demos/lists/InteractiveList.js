@@ -2,22 +2,22 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from '@material-next/core/styles';
 import List, {
   ListItem,
   ListItemAvatar,
   ListItemIcon,
   ListItemSecondaryAction,
   ListItemText,
-} from 'material-ui/List';
-import Avatar from 'material-ui/Avatar';
-import IconButton from 'material-ui/IconButton';
-import { FormGroup, FormControlLabel } from 'material-ui/Form';
-import Checkbox from 'material-ui/Checkbox';
-import Grid from 'material-ui/Grid';
-import Typography from 'material-ui/Typography';
-import FolderIcon from 'material-ui-icons/Folder';
-import DeleteIcon from 'material-ui-icons/Delete';
+} from '@material-next/core/List';
+import Avatar from '@material-next/core/Avatar';
+import IconButton from '@material-next/core/IconButton';
+import { FormGroup, FormControlLabel } from '@material-next/core/Form';
+import Checkbox from '@material-next/core/Checkbox';
+import Grid from '@material-next/core/Grid';
+import Typography from '@material-next/core/Typography';
+import FolderIcon from '@material-next/icons/Folder';
+import DeleteIcon from '@material-next/icons/Delete';
 
 const styles = theme => ({
   root: {

@@ -30,7 +30,7 @@ function getContainer() {
   warning(
     container !== null,
     `
-Material-UI: you are most likely evaluating the code before the
+Material-Next: you are most likely evaluating the code before the
 browser has a chance to reach the <body>.
 Please move the import at the end of the <body>.
   `,

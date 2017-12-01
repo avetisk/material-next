@@ -86,7 +86,7 @@ class Paper extends React.Component<ProvidedProps & Props> {
 
     warning(
       elevation >= 0 && elevation < 25,
-      `Material-UI: this elevation \`${elevation}\` is not implemented.`,
+      `Material-Next: this elevation \`${elevation}\` is not implemented.`,
     );
 
     const className = classNames(

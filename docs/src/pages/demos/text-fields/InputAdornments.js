@@ -3,12 +3,12 @@
 import React from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import IconButton from 'material-ui/IconButton';
-import Input, { InputLabel, InputAdornment } from 'material-ui/Input';
-import { FormControl, FormHelperText } from 'material-ui/Form';
-import Visibility from 'material-ui-icons/Visibility';
-import VisibilityOff from 'material-ui-icons/VisibilityOff';
+import { withStyles } from '@material-next/core/styles';
+import IconButton from '@material-next/core/IconButton';
+import Input, { InputLabel, InputAdornment } from '@material-next/core/Input';
+import { FormControl, FormHelperText } from '@material-next/core/Form';
+import Visibility from '@material-next/icons/Visibility';
+import VisibilityOff from '@material-next/icons/VisibilityOff';
 
 const styles = theme => ({
   root: {

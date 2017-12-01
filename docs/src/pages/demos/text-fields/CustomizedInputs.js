@@ -2,11 +2,11 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Input, { InputLabel } from 'material-ui/Input';
-import TextField from 'material-ui/TextField';
-import { FormControl } from 'material-ui/Form';
-import purple from 'material-ui/colors/purple';
+import { withStyles } from '@material-next/core/styles';
+import Input, { InputLabel } from '@material-next/core/Input';
+import TextField from '@material-next/core/TextField';
+import { FormControl } from '@material-next/core/Form';
+import purple from '@material-next/core/colors/purple';
 
 const styles = theme => ({
   container: {

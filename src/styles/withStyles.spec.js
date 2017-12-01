@@ -75,7 +75,7 @@ describe('withStyles', () => {
         assert.strictEqual(consoleErrorMock.callCount(), 1);
         assert.match(
           consoleErrorMock.args()[0][0],
-          /Material-UI: the key `bar` provided to the classes property is not implemented/,
+          /Material-Next: the key `bar` provided to the classes property is not implemented/,
         );
       });
 
@@ -86,7 +86,7 @@ describe('withStyles', () => {
         assert.strictEqual(consoleErrorMock.callCount(), 2);
         assert.match(
           consoleErrorMock.args()[1][0],
-          /Material-UI: the key `root` provided to the classes property is not valid/,
+          /Material-Next: the key `root` provided to the classes property is not valid/,
         );
       });
 

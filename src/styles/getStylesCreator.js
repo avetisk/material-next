@@ -18,7 +18,7 @@ function getStylesCreator(stylesOrCreator: Object | (Object => Object)) {
       warning(
         stylesWithOverrides[key],
         [
-          'Material-UI: you are trying to override a style that does not exist.',
+          'Material-Next: you are trying to override a style that does not exist.',
           // $FlowFixMe - flow isn't smart enough
           `Fix the \`${key}\` key of \`theme.overrides.${name}\`.`,
         ].join('\n'),

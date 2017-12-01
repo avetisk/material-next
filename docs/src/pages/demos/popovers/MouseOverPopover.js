@@ -2,11 +2,11 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Popover from 'material-ui/Popover';
-import Typography from 'material-ui/Typography';
-import { withStyles } from 'material-ui/styles';
-import Grow from 'material-ui/transitions/Grow';
-import Paper from 'material-ui/Paper';
+import Popover from '@material-next/core/Popover';
+import Typography from '@material-next/core/Typography';
+import { withStyles } from '@material-next/core/styles';
+import Grow from '@material-next/core/transitions/Grow';
+import Paper from '@material-next/core/Paper';
 import { Manager, Target, Popper } from 'react-popper';
 
 const styles = theme => ({

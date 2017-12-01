@@ -2,9 +2,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import AccessAlarmIcon from 'material-ui-icons/AccessAlarm';
-import ThreeDRotation from 'material-ui-icons/ThreeDRotation';
-import { withStyles } from 'material-ui/styles';
+import AccessAlarmIcon from '@material-next/icons/AccessAlarm';
+import ThreeDRotation from '@material-next/icons/ThreeDRotation';
+import { withStyles } from '@material-next/core/styles';
 
 const styles = theme => ({
   icon: {

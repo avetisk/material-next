@@ -2,10 +2,10 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import List, { ListItem, ListItemSecondaryAction, ListItemText } from 'material-ui/List';
-import Checkbox from 'material-ui/Checkbox';
-import Avatar from 'material-ui/Avatar';
+import { withStyles } from '@material-next/core/styles';
+import List, { ListItem, ListItemSecondaryAction, ListItemText } from '@material-next/core/List';
+import Checkbox from '@material-next/core/Checkbox';
+import Avatar from '@material-next/core/Avatar';
 
 const styles = theme => ({
   root: {

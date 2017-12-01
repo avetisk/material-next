@@ -3,10 +3,10 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from '@material-next/core/styles';
 import SwipeableViews from 'react-swipeable-views';
-import AppBar from 'material-ui/AppBar';
-import Tabs, { Tab } from 'material-ui/Tabs';
+import AppBar from '@material-next/core/AppBar';
+import Tabs, { Tab } from '@material-next/core/Tabs';
 
 function TabContainer({ children, dir }) {
   return (

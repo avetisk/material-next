@@ -51,7 +51,7 @@ function ListItemAvatar(props: ProvidedProps & Props, context: { dense: boolean 
   if (context.dense === undefined) {
     warning(
       false,
-      `Material-UI: <ListItemAvatar> is a simple wrapper to apply the dense styles
+      `Material-Next: <ListItemAvatar> is a simple wrapper to apply the dense styles
       to <Avatar>. You do not need it unless you are controlling the <List> dense property.`,
     );
     return props.children;

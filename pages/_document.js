@@ -15,7 +15,7 @@ class MyDocument extends Document {
     return (
       <html lang="en" dir="ltr">
         <Head>
-          <title>Material-UI</title>
+          <title>Material-Next</title>
           <meta
             name="description"
             content="React Components that Implement Google's Material Design."
@@ -43,21 +43,21 @@ class MyDocument extends Document {
           <style id="insertion-point-jss" />
           {/* Twitter */}
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:site" content="@MaterialUI" />
-          <meta name="twitter:title" content="Material-UI" />
+          <meta name="twitter:site" content="@MaterialNext" />
+          <meta name="twitter:title" content="Material-Next" />
           <meta
             name="twitter:description"
             content="React Components that Implement Google's Material Design."
           />
-          <meta name="twitter:image" content="https://material-ui-next.com/static/brand.png" />
+          <meta name="twitter:image" content="https://material-next-next.com/static/brand.png" />
           {/* Facebook */}
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Material-UI" />
+          <meta property="og:title" content="Material-Next" />
           <meta
             property="og:description"
             content="React Components that Implement Google's Material Design."
           />
-          <meta property="og:image" content="https://material-ui-next.com/static/brand.png" />
+          <meta property="og:image" content="https://material-next-next.com/static/brand.png" />
           <link rel="shortcut icon" href="/static/favicon.ico" />
           <link rel="canonical" href={canonical} />
         </Head>
@@ -114,7 +114,7 @@ MyDocument.getInitialProps = ctx => {
   return {
     ...page,
     stylesContext: context,
-    canonical: `https://material-ui-next.com${ctx.req.url.replace(/\/$/, '')}/`,
+    canonical: `https://material-next-next.com${ctx.req.url.replace(/\/$/, '')}/`,
     styles: (
       <style
         id="jss-server-side"

@@ -2,10 +2,10 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Stepper, { Step, StepButton } from 'material-ui/Stepper';
-import Button from 'material-ui/Button';
-import Typography from 'material-ui/Typography';
+import { withStyles } from '@material-next/core/styles';
+import Stepper, { Step, StepButton } from '@material-next/core/Stepper';
+import Button from '@material-next/core/Button';
+import Typography from '@material-next/core/Typography';
 
 const styles = theme => ({
   root: {

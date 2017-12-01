@@ -2,17 +2,17 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Button from 'material-ui/Button';
-import Dialog from 'material-ui/Dialog';
-import List, { ListItem, ListItemText } from 'material-ui/List';
-import Divider from 'material-ui/Divider';
-import AppBar from 'material-ui/AppBar';
-import Toolbar from 'material-ui/Toolbar';
-import IconButton from 'material-ui/IconButton';
-import Typography from 'material-ui/Typography';
-import CloseIcon from 'material-ui-icons/Close';
-import Slide from 'material-ui/transitions/Slide';
+import { withStyles } from '@material-next/core/styles';
+import Button from '@material-next/core/Button';
+import Dialog from '@material-next/core/Dialog';
+import List, { ListItem, ListItemText } from '@material-next/core/List';
+import Divider from '@material-next/core/Divider';
+import AppBar from '@material-next/core/AppBar';
+import Toolbar from '@material-next/core/Toolbar';
+import IconButton from '@material-next/core/IconButton';
+import Typography from '@material-next/core/Typography';
+import CloseIcon from '@material-next/icons/Close';
+import Slide from '@material-next/core/transitions/Slide';
 
 const styles = {
   appBar: {

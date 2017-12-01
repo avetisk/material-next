@@ -2,9 +2,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Radio, { RadioGroup } from 'material-ui/Radio';
-import { FormLabel, FormControl, FormControlLabel, FormHelperText } from 'material-ui/Form';
+import { withStyles } from '@material-next/core/styles';
+import Radio, { RadioGroup } from '@material-next/core/Radio';
+import { FormLabel, FormControl, FormControlLabel, FormHelperText } from '@material-next/core/Form';
 
 const styles = theme => ({
   root: {

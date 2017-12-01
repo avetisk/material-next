@@ -4,10 +4,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'docs/src/modules/components/Link';
 import classNames from 'classnames';
-import { withStyles } from 'material-ui/styles';
-import { ListItem } from 'material-ui/List';
-import Button from 'material-ui/Button';
-import Collapse from 'material-ui/transitions/Collapse';
+import { withStyles } from '@material-next/core/styles';
+import { ListItem } from '@material-next/core/List';
+import Button from '@material-next/core/Button';
+import Collapse from '@material-next/core/transitions/Collapse';
 
 const styles = theme => ({
   button: theme.mixins.gutters({

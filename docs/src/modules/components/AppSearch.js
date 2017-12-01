@@ -4,10 +4,10 @@ import React from 'react';
 import compose from 'recompose/compose';
 import pure from 'recompose/pure';
 import PropTypes from 'prop-types';
-import withWidth, { isWidthUp } from 'material-ui/utils/withWidth';
-import SearchIcon from 'material-ui-icons/Search';
-import { fade } from 'material-ui/styles/colorManipulator';
-import { withStyles } from 'material-ui/styles';
+import withWidth, { isWidthUp } from '@material-next/core/utils/withWidth';
+import SearchIcon from '@material-next/icons/Search';
+import { fade } from '@material-next/core/styles/colorManipulator';
+import { withStyles } from '@material-next/core/styles';
 
 let searchTimer;
 
@@ -17,7 +17,7 @@ function initDocsearch() {
       clearInterval(searchTimer);
       window.docsearch({
         apiKey: '1d8534f83b9b0cfea8f16498d19fbcab',
-        indexName: 'material-ui',
+        indexName: 'material-next',
         inputSelector: '#docsearch-input',
         debug: false, // Set debug to true if you want to inspect the dropdown
       });

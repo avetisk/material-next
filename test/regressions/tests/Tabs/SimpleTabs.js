@@ -2,11 +2,11 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Icon from 'material-ui/Icon';
-import Paper from 'material-ui/Paper';
-import Tabs from 'material-ui/Tabs';
-import Tab from 'material-ui/Tabs/Tab';
+import { withStyles } from '@material-next/core/styles';
+import Icon from '@material-next/core/Icon';
+import Paper from '@material-next/core/Paper';
+import Tabs from '@material-next/core/Tabs';
+import Tab from '@material-next/core/Tabs/Tab';
 
 const noop = () => {};
 

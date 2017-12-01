@@ -1,14 +1,14 @@
 /* eslint-disable flowtype/require-valid-file-annotation */
 
 import React from 'react';
-import Button from 'material-ui/Button';
+import Button from '@material-next/core/Button';
 import Dialog, {
   DialogActions,
   DialogContent,
   DialogContentText,
   DialogTitle,
-} from 'material-ui/Dialog';
-import Slide from 'material-ui/transitions/Slide';
+} from '@material-next/core/Dialog';
+import Slide from '@material-next/core/transitions/Slide';
 import NoSSR from 'docs/src/modules/components/NoSSR'; // Temporary workaround for SSR Portal issue.
 
 function Transition(props) {

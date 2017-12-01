@@ -3,11 +3,11 @@
 import React from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import blue from 'material-ui/colors/blue';
-import green from 'material-ui/colors/green';
-import red from 'material-ui/colors/red';
-import SvgIcon from 'material-ui/SvgIcon';
+import { withStyles } from '@material-next/core/styles';
+import blue from '@material-next/core/colors/blue';
+import green from '@material-next/core/colors/green';
+import red from '@material-next/core/colors/red';
+import SvgIcon from '@material-next/core/SvgIcon';
 
 const styles = theme => ({
   icon: {

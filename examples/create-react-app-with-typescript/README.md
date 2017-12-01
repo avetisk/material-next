@@ -2,10 +2,10 @@
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
+Download the example [or clone the repo](https://github.com/material-next/material-next):
 
 ```bash
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/v1-beta | tar -xz --strip=2 material-ui-1-beta/examples/create-react-app-with-typescript
+curl https://codeload.github.com/material-next/material-next/tar.gz/v1-beta | tar -xz --strip=2 material-ui-1-beta/examples/create-react-app-with-typescript
 cd create-react-app-with-typescript
 ```
 

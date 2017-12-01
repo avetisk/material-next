@@ -2,8 +2,8 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import { GridList, GridListTile } from 'material-ui/GridList';
+import { withStyles } from '@material-next/core/styles';
+import { GridList, GridListTile } from '@material-next/core/GridList';
 import tileData from './tileData';
 
 const styles = theme => ({

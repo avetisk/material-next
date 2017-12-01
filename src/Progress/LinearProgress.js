@@ -237,7 +237,7 @@ class LinearProgress extends React.Component<ProvidedProps & Props> {
       } else {
         warning(
           false,
-          'Material-UI: you need to provide a value property ' +
+          'Material-Next: you need to provide a value property ' +
             'when LinearProgress is in determinate mode.',
         );
       }
@@ -248,7 +248,7 @@ class LinearProgress extends React.Component<ProvidedProps & Props> {
       } else {
         warning(
           false,
-          'Material-UI: you need to provide a value property when LinearProgress is ' +
+          'Material-Next: you need to provide a value property when LinearProgress is ' +
             'in buffer mode.',
         );
       }

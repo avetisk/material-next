@@ -1,9 +1,9 @@
 // @flow
 
 import React from 'react';
-import { DialogActions, DialogContent, DialogContentText, DialogTitle } from 'material-ui/Dialog';
-import Paper from 'material-ui/Paper';
-import Button from 'material-ui/Button';
+import { DialogActions, DialogContent, DialogContentText, DialogTitle } from '@material-next/core/Dialog';
+import Paper from '@material-next/core/Paper';
+import Button from '@material-next/core/Button';
 
 export default function AlertDialog() {
   return (

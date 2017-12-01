@@ -2,10 +2,10 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import List, { ListItem, ListItemText } from 'material-ui/List';
-import Avatar from 'material-ui/Avatar';
-import FolderIcon from 'material-ui-icons/Folder';
+import { withStyles } from '@material-next/core/styles';
+import List, { ListItem, ListItemText } from '@material-next/core/List';
+import Avatar from '@material-next/core/Avatar';
+import FolderIcon from '@material-next/icons/Folder';
 
 const styles = theme => ({
   root: {

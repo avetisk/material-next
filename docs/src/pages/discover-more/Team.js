@@ -2,11 +2,11 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Card, { CardContent, CardMedia } from 'material-ui/Card';
-import Grid from 'material-ui/Grid';
-import Typography from 'material-ui/Typography';
-import IconButton from 'material-ui/IconButton';
+import { withStyles } from '@material-next/core/styles';
+import Card, { CardContent, CardMedia } from '@material-next/core/Card';
+import Grid from '@material-next/core/Grid';
+import Typography from '@material-next/core/Typography';
+import IconButton from '@material-next/core/IconButton';
 import Github from 'docs/src/modules/components/GitHub';
 import Twitter from 'docs/src/modules/components/Twitter';
 
@@ -15,14 +15,14 @@ const members = [
     name: 'Hai Nguyen',
     github: 'hai-cea',
     twitter: 'haicea',
-    flag: 'v0.x creator',
+    flag: 'Material-UI v0.x creator',
     city: 'Dallas, Texas, US',
   },
   {
     name: 'Olivier Tassinari',
     github: 'oliviertassinari',
     twitter: 'olivtassinari',
-    flag: 'v1.x co-creator',
+    flag: 'co-creator',
     city: 'Paris, France',
   },
   {

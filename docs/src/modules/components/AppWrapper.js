@@ -4,7 +4,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { MuiThemeProvider } from 'material-ui/styles';
+import { MuiThemeProvider } from '@material-next/core/styles';
 import getContext, { getTheme } from 'docs/src/modules/styles/getContext';
 import JssProvider from 'react-jss/lib/JssProvider';
 import AppFrame from 'docs/src/modules/components/AppFrame';

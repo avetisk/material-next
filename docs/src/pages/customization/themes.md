@@ -9,7 +9,7 @@ We use [jss](https://github.com/cssinjs/jss) under the hood.
 
 ## Theme provider
 
-You need to use the `<MuiThemeProvider />` component in order to inject a theme into your application. However, this is optional, Material-UI components come with a default theme.
+You need to use the `<MuiThemeProvider />` component in order to inject a theme into your application. However, this is optional, Material-Next components come with a default theme.
 We rely on the context feature of React.
 
 Make sure that `<MuiThemeProvider />` is a parent of the components you are trying to customize.
@@ -17,7 +17,7 @@ You can learn more about it [reading the API section](#muithemeprovider).
 
 ## Configuration variables
 
-Changing the configurations variables is the most effective way to match Material-UI to your needs. By default, your Material-UI application will use the light theme.
+Changing the configurations variables is the most effective way to match Material-Next to your needs. By default, your Material-Next application will use the light theme.
 
 ### Palette
 
@@ -51,7 +51,7 @@ If you want to learn more about color, you can check out [the typography section
 
 #### Font size
 
-Material-UI uses `rem` units for the font size.
+Material-Next uses `rem` units for the font size.
 The browser html element default font size is `16px`, but browsers have an option to change this value,
 so `rem` units allow us to accommodate the users settings, resulting in a much better user experience.
 
@@ -78,7 +78,7 @@ You can make a theme dark by setting `type` to `dark`.
 ### The other variables
 
 We have tried to normalize the implementation by adding many more variables: typography, breakpoints, transitions, etc. You can see below what the theme object looks like with the default values.
-If you want to learn more, we suggesting having a look at [`material-ui/style/createMuiTheme.js`](https://github.com/mui-org/material-ui/blob/v1-beta/src/styles/createMuiTheme.js).
+If you want to learn more, we suggesting having a look at [`material-ui/style/createMuiTheme.js`](https://github.com/material-next/material-next/blob/v1-beta/src/styles/createMuiTheme.js).
 
 {{demo='pages/customization/ThemeDefault.js'}}
 
@@ -94,14 +94,14 @@ For instance:
 ## Customizing all instances of a component type
 
 When the configuration variables aren't powerful enough, you can take advantage of the
-`overrides` key of the `theme` to potentially change every single style injected by Material-UI into the DOM.
+`overrides` key of the `theme` to potentially change every single style injected by Material-Next into the DOM.
 That's a really powerful feature.
 
 {{demo='pages/customization/OverridesTheme.js'}}
 
 The list of these customization points for each component is documented under the **Component API** section.
 For instance, you can have a look at the [Button](/api/button#css-api).
-Alternatively, you can always have a look at the [implementation](https://github.com/mui-org/material-ui/blob/v1-beta/src/Button/Button.js).
+Alternatively, you can always have a look at the [implementation](https://github.com/material-next/material-next/blob/v1-beta/src/Button/Button.js).
 
 ## Accessing the theme in a component
 

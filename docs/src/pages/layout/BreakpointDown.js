@@ -3,11 +3,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import compose from 'recompose/compose';
-import { withStyles } from 'material-ui/styles';
-import Paper from 'material-ui/Paper';
-import Hidden from 'material-ui/Hidden';
-import withWidth from 'material-ui/utils/withWidth';
-import Typography from 'material-ui/Typography';
+import { withStyles } from '@material-next/core/styles';
+import Paper from '@material-next/core/Paper';
+import Hidden from '@material-next/core/Hidden';
+import withWidth from '@material-next/core/utils/withWidth';
+import Typography from '@material-next/core/Typography';
 
 const styles = theme => ({
   container: {

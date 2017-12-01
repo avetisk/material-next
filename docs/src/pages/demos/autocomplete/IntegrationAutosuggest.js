@@ -4,12 +4,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Autosuggest from 'react-autosuggest';
-import TextField from 'material-ui/TextField';
-import Paper from 'material-ui/Paper';
-import { MenuItem } from 'material-ui/Menu';
+import TextField from '@material-next/core/TextField';
+import Paper from '@material-next/core/Paper';
+import { MenuItem } from '@material-next/core/Menu';
 import match from 'autosuggest-highlight/match';
 import parse from 'autosuggest-highlight/parse';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from '@material-next/core/styles';
 
 const suggestions = [
   { label: 'Afghanistan' },

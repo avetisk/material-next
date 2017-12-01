@@ -1,9 +1,9 @@
 // @flow
 
 import React from 'react';
-import Avatar from 'material-ui/Avatar';
-import Icon from 'material-ui/Icon';
-import List, { ListItem, ListItemText } from 'material-ui/List';
+import Avatar from '@material-next/core/Avatar';
+import Icon from '@material-next/core/Icon';
+import List, { ListItem, ListItemText } from '@material-next/core/List';
 
 export default function AvatarListItem() {
   return (

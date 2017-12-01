@@ -1,6 +1,6 @@
-# eslint-plugin-material-ui
+# eslint-plugin-material-next
 
-Custom eslint rules for Material-UI
+Custom eslint rules for Material-Next
 
 ## Supported Rules
 

@@ -249,7 +249,7 @@ describe('<Tabs />', () => {
       assert.strictEqual(consoleErrorMock.callCount(), 2);
       assert.strictEqual(
         consoleErrorMock.args()[0][0],
-        'Warning: Material-UI: the value provided `2` is invalid',
+        'Warning: Material-Next: the value provided `2` is invalid',
       );
     });
   });

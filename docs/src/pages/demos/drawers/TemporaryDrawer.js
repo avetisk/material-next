@@ -2,11 +2,11 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Drawer from 'material-ui/Drawer';
-import Button from 'material-ui/Button';
-import List from 'material-ui/List';
-import Divider from 'material-ui/Divider';
+import { withStyles } from '@material-next/core/styles';
+import Drawer from '@material-next/core/Drawer';
+import Button from '@material-next/core/Button';
+import List from '@material-next/core/List';
+import Divider from '@material-next/core/Divider';
 import { mailFolderListItems, otherMailFolderListItems } from './tileData';
 
 const styles = {

@@ -1,7 +1,7 @@
 // @flow weak
 
 import React from 'react';
-import Typography from 'material-ui/Typography';
+import Typography from '@material-next/core/Typography';
 
 const style = {
   width: '100%',
