@@ -2,15 +2,15 @@
 #### Note
 
 For *how-to* questions and other non-issues,
-please use [StackOverflow](http://stackoverflow.com/questions/tagged/material-ui)
-instead of Github issues. There is a StackOverflow tag called "material-ui"
+please use [StackOverflow](http://stackoverflow.com/questions/tagged/material-next)
+instead of Github issues. There is a StackOverflow tag called "material-next"
 that you can use to tag your questions.
 
-# [Material-Next@v1-beta](https://material-ui-next.com/)
-[![npm package](https://img.shields.io/npm/v/material-next/master.svg)](https://www.npmjs.org/package/material-ui)
-[![CircleCI](https://img.shields.io/circleci/project/github/material-next/material-next/v1-beta.svg)](https://circleci.com/gh/material-next/material-next/tree/v1-beta)
+# [Material-Next](https://material-ui-next.com/)
+[![npm package](https://img.shields.io/npm/v/@material-next/core/master.svg)](https://www.npmjs.org/package/@material-next/core)
+[![CircleCI](https://img.shields.io/circleci/project/github/material-next/material-next/master.svg)](https://circleci.com/gh/material-next/material-next/tree/master)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-f81a65.svg)](https://gitter.im/callemall/material-ui?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Coverage Status](https://img.shields.io/codecov/c/github/material-next/material-next/v1-beta.svg)](https://codecov.io/gh/material-next/material-next/branch/v1-beta)
+[![Coverage Status](https://img.shields.io/codecov/c/github/material-next/material-next/master.svg)](https://codecov.io/gh/material-next/material-next/branch/master)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1320/badge)](https://bestpractices.coreinfrastructure.org/projects/1320)
 
 [![PeerDependencies](https://img.shields.io/david/peer/material-next/material-next.svg)](https://david-dm.org/material-next/material-next#info=peerDependencies&view=list)
@@ -20,22 +20,22 @@ that you can use to tag your questions.
 > Material-Next is a set of [React](http://facebook.github.io/react/) components that implement
 [Google's Material Design](https://www.google.com/design/spec/material-design/introduction.html) specification.
 
-## We've moved!
+## This is a fork
 
-We've moved the repo from `callemall/material-ui` to `material-next/material-next`. [Find out more](https://medium.com/call-em-all/material-ui-the-move-to-a-sustainable-open-source-project-5261d07b5067) from [@callemall/haicea](https://github.com/hai-cea).
+We've have forked the repo from `mui-org/material-ui` to `material-next/material-next`. [Find out more](https://medium.com/).
 
 ## Installation
 
-Material-Next is available as an [npm package](https://www.npmjs.org/package/material-ui).
+Material-Next is available as an [npm package](https://www.npmjs.org/package/@material-next/core).
 
 **Stable channel**
 ```sh
-npm install material-ui
+npm install --save @material-next/core
 ```
 
 **Pre-release channel**
 ```sh
-npm install material-ui@next
+npm install --save @material-next/core@next
 ```
 
 Please note that `@next` will only point to pre-releases; to get the latest stable release use `@latest` instead.
@@ -63,7 +63,7 @@ render(<App />, document.querySelector('#app'));
 ## Examples
 
 Are you looking for an example project to get started?
-[We host some](https://github.com/material-next/material-next/blob/v1-beta/docs/src/pages/getting-started/example-projects.md).
+[We host some](https://github.com/material-next/material-next/blob/master/docs/src/pages/getting-started/example-projects.md).
 
 ## Documentation
 
@@ -71,7 +71,7 @@ Check out our [documentation website](https://material-ui-next.com/).
 
 ## Contributing
 
-We'd greatly appreciate any [contribution](https://github.com/material-next/material-next/blob/v1-beta/CONTRIBUTING.md) you make. :)
+We'd greatly appreciate any [contribution](https://github.com/material-next/material-next/blob/master/CONTRIBUTING.md) you make. :)
 
 ## Changelog
 
@@ -80,7 +80,7 @@ Please read the [changelog](https://github.com/material-next/material-next/relea
 
 ## Roadmap
 
-The future plans and high priority features and enhancements can be found in the [ROADMAP.md](https://github.com/material-next/material-next/blob/v1-beta/ROADMAP.md) file.
+The future plans and high priority features and enhancements can be found in the [ROADMAP.md](https://github.com/material-next/material-next/blob/master/ROADMAP.md) file.
 
 ## Thanks
 
@@ -91,4 +91,4 @@ Thank you to [BrowserStack](https://www.browserstack.com/) for providing the inf
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/material-next/material-next/blob/v1-beta/LICENSE).
+[MIT license](https://github.com/material-next/material-next/blob/master/LICENSE).

@@ -81,7 +81,8 @@ function reduceChildRoutes(props, activePage, items, childPage, index) {
   return items;
 }
 
-const GITHUB_RELEASE_BASE_URL = 'https://github.com/@material-next/core/@material-next/core/releases/tag/';
+const GITHUB_RELEASE_BASE_URL =
+  'https://github.com/@material-next/core/@material-next/core/releases/tag/';
 
 function AppDrawer(props: Object, context: Object) {
   const { classes, className, disablePermanent, mobileOpen, onRequestClose } = props;

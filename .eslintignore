@@ -9,10 +9,10 @@ coverage
 flow
 flow-typed
 /packages/*/lib
-/packages/material-ui-icons/test/fixtures
-/packages/material-ui-icons/src
-/packages/material-ui-icons/tpl
-/packages/material-ui-icons/build
-/packages/material-ui-codemod/src/*/*.spec*
+/packages/material-next-icons/test/fixtures
+/packages/material-next-icons/src
+/packages/material-next-icons/tpl
+/packages/material-next-icons/build
+/packages/material-next-codemod/src/*/*.spec*
 /examples/create-react-app/build
 /.git

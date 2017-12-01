@@ -39,7 +39,9 @@ function AppFooter(props: Object) {
             <Grid item xs={12} sm={6}>
               <ul className={classes.list}>
                 <li className={classes.listItem}>
-                  <Link href="https://github.com/@material-next/core/@material-next/core/tree/v1-beta">GitHub</Link>
+                  <Link href="https://github.com/@material-next/core/@material-next/core/tree/v1-beta">
+                    GitHub
+                  </Link>
                 </li>
                 <li className={classes.listItem}>
                   <Link href="https://twitter.com/MaterialNext">Twitter</Link>

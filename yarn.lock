@@ -3127,7 +3127,7 @@ eslint-plugin-jsx-a11y@^6.0.2:
     emoji-regex "^6.1.0"
     jsx-ast-utils "^1.4.0"
 
-"eslint-plugin-material-ui@file:packages/eslint-plugin-material-ui":
+"eslint-plugin-material-next@file:packages/eslint-plugin-material-next":
   version "1.0.0"
 
 eslint-plugin-mocha@^4.11.0:

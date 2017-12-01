@@ -15,8 +15,8 @@ module.exports = {
   ],
   resolve: {
     alias: {
-      'material-next': path.resolve(__dirname, '../src'),
-      '@material-next/icons': path.resolve(__dirname, '../packages/@material-next/icons/src'),
+      '@material-next/core': path.resolve(__dirname, '../src'),
+      '@material-next/icons': path.resolve(__dirname, '../packages/material-next-icons/src'),
       docs: path.resolve(__dirname, '../docs'),
     },
   },
