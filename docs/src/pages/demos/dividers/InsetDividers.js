@@ -2,12 +2,12 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import List, { ListItem, ListItemText } from 'material-ui/List';
-import Avatar from 'material-ui/Avatar';
-import Divider from 'material-ui/Divider';
-import FolderIcon from 'material-ui-icons/Folder';
-import ImageIcon from 'material-ui-icons/Image';
+import { withStyles } from '@material-next/core/styles';
+import List, { ListItem, ListItemText } from '@material-next/core/List';
+import Avatar from '@material-next/core/Avatar';
+import Divider from '@material-next/core/Divider';
+import FolderIcon from '@material-next/icons/Folder';
+import ImageIcon from '@material-next/icons/Image';
 
 const styles = theme => ({
   root: {

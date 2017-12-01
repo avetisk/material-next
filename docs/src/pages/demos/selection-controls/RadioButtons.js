@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-valid-file-annotation */
 
 import React from 'react';
-import Radio from 'material-ui/Radio';
+import Radio from '@material-next/core/Radio';
 
 class RadioButtons extends React.Component {
   state = {

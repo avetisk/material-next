@@ -3,7 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import MarkdownElement from 'docs/src/modules/components/MarkdownElement';
-import { withTheme } from 'material-ui/styles';
+import { withTheme } from '@material-next/core/styles';
 
 const style = {
   maxWidth: '100%',

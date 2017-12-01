@@ -1,9 +1,9 @@
 /* eslint-disable flowtype/require-valid-file-annotation */
 
 import React from 'react';
-import IconButton from 'material-ui/IconButton';
-import Menu, { MenuItem } from 'material-ui/Menu';
-import MoreVertIcon from 'material-ui-icons/MoreVert';
+import IconButton from '@material-next/core/IconButton';
+import Menu, { MenuItem } from '@material-next/core/Menu';
+import MoreVertIcon from '@material-next/icons/MoreVert';
 
 const options = [
   'None',

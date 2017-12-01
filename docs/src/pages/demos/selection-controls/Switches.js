@@ -2,9 +2,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import green from 'material-ui/colors/green';
-import Switch from 'material-ui/Switch';
+import { withStyles } from '@material-next/core/styles';
+import green from '@material-next/core/colors/green';
+import Switch from '@material-next/core/Switch';
 
 const styles = {
   bar: {},

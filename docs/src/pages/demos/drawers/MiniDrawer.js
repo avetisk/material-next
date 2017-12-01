@@ -2,18 +2,18 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from '@material-next/core/styles';
 import classNames from 'classnames';
-import Drawer from 'material-ui/Drawer';
-import AppBar from 'material-ui/AppBar';
-import Toolbar from 'material-ui/Toolbar';
-import List from 'material-ui/List';
-import Typography from 'material-ui/Typography';
-import Divider from 'material-ui/Divider';
-import IconButton from 'material-ui/IconButton';
-import MenuIcon from 'material-ui-icons/Menu';
-import ChevronLeftIcon from 'material-ui-icons/ChevronLeft';
-import ChevronRightIcon from 'material-ui-icons/ChevronRight';
+import Drawer from '@material-next/core/Drawer';
+import AppBar from '@material-next/core/AppBar';
+import Toolbar from '@material-next/core/Toolbar';
+import List from '@material-next/core/List';
+import Typography from '@material-next/core/Typography';
+import Divider from '@material-next/core/Divider';
+import IconButton from '@material-next/core/IconButton';
+import MenuIcon from '@material-next/icons/Menu';
+import ChevronLeftIcon from '@material-next/icons/ChevronLeft';
+import ChevronRightIcon from '@material-next/icons/ChevronRight';
 import { mailFolderListItems, otherMailFolderListItems } from './tileData';
 
 const drawerWidth = 240;

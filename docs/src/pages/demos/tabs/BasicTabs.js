@@ -3,9 +3,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import AppBar from 'material-ui/AppBar';
-import Tabs, { Tab } from 'material-ui/Tabs';
+import { withStyles } from '@material-next/core/styles';
+import AppBar from '@material-next/core/AppBar';
+import Tabs, { Tab } from '@material-next/core/Tabs';
 
 function TabContainer(props) {
   return <div style={{ padding: 8 * 3 }}>{props.children}</div>;

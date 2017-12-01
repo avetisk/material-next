@@ -2,9 +2,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import Button from 'material-ui/Button';
-import { withStyles } from 'material-ui/styles';
-import { SnackbarContent } from 'material-ui/Snackbar';
+import Button from '@material-next/core/Button';
+import { withStyles } from '@material-next/core/styles';
+import { SnackbarContent } from '@material-next/core/Snackbar';
 
 const action = (
   <Button color="accent" dense>

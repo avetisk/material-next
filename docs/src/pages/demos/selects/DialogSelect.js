@@ -2,13 +2,13 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import Button from 'material-ui/Button';
-import { withStyles } from 'material-ui/styles';
-import Dialog, { DialogActions, DialogContent, DialogTitle } from 'material-ui/Dialog';
-import Input, { InputLabel } from 'material-ui/Input';
-import { MenuItem } from 'material-ui/Menu';
-import { FormControl } from 'material-ui/Form';
-import Select from 'material-ui/Select';
+import Button from '@material-next/core/Button';
+import { withStyles } from '@material-next/core/styles';
+import Dialog, { DialogActions, DialogContent, DialogTitle } from '@material-next/core/Dialog';
+import Input, { InputLabel } from '@material-next/core/Input';
+import { MenuItem } from '@material-next/core/Menu';
+import { FormControl } from '@material-next/core/Form';
+import Select from '@material-next/core/Select';
 
 const styles = theme => ({
   container: {

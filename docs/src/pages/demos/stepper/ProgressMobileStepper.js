@@ -2,11 +2,11 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import MobileStepper from 'material-ui/MobileStepper';
-import Button from 'material-ui/Button';
-import KeyboardArrowLeft from 'material-ui-icons/KeyboardArrowLeft';
-import KeyboardArrowRight from 'material-ui-icons/KeyboardArrowRight';
+import { withStyles } from '@material-next/core/styles';
+import MobileStepper from '@material-next/core/MobileStepper';
+import Button from '@material-next/core/Button';
+import KeyboardArrowLeft from '@material-next/icons/KeyboardArrowLeft';
+import KeyboardArrowRight from '@material-next/icons/KeyboardArrowRight';
 
 const styles = {
   root: {

@@ -2,9 +2,9 @@
 
 import { create, SheetsRegistry } from 'jss';
 import preset from 'jss-preset-default';
-import { createMuiTheme } from 'material-ui/styles';
-import { purple, green } from 'material-ui/colors';
-import createGenerateClassName from 'material-ui/styles/createGenerateClassName';
+import { createMuiTheme } from '@material-next/core/styles';
+import { purple, green } from '@material-next/core/colors';
+import createGenerateClassName from '@material-next/core/styles/createGenerateClassName';
 
 const theme = createMuiTheme({
   palette: {

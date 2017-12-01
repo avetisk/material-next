@@ -2,13 +2,13 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import AddIcon from 'material-ui-icons/Add';
-import Button from 'material-ui/Button';
-import DeleteIcon from 'material-ui-icons/Delete';
-import IconButton from 'material-ui/IconButton';
-import Typography from 'material-ui/Typography';
-import Tooltip from 'material-ui/Tooltip';
+import { withStyles } from '@material-next/core/styles';
+import AddIcon from '@material-next/icons/Add';
+import Button from '@material-next/core/Button';
+import DeleteIcon from '@material-next/icons/Delete';
+import IconButton from '@material-next/core/IconButton';
+import Typography from '@material-next/core/Typography';
+import Tooltip from '@material-next/core/Tooltip';
 
 const styles = theme => ({
   fab: {

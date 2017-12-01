@@ -310,7 +310,7 @@ Big thanks to the 14 contributors who made this release possible.
 
 Here are some highlights ✨:
 - New InputAdornment component (#8504)
-- New [Frequently asked questions](https://github.com/mui-org/material-ui/blob/4df547d56448cedf70977d6e2463b38eaf64d1c7/docs/src/pages/getting-started/frequently-asked-questions.md) documentation section
+- New [Frequently asked questions](https://github.com/material-next/material-next/blob/4df547d56448cedf70977d6e2463b38eaf64d1c7/docs/src/pages/getting-started/frequently-asked-questions.md) documentation section
 - We have saved 1 KB gzip by removing our internal react-transition-group fork (#8785)
 - We have made one step further in order to upgrade all our development dependencies to react@16 (#8804)
 
@@ -640,7 +640,7 @@ Thanks for the support!
 Here are some highlights ✨:
 - Introduction of the first codemods for the `v0.x -> v1.x` migration as well as a documentation page. @vividh (#8311, #8333, #8314)
 - The TypeScript definitions made an important step forward with more than 10 PRs merged. @pelotom @sebald @xaviergonz and more
-- Wondering how Material-UI compares to the other solutions out there?
+- Wondering how Material-Next compares to the other solutions out there?
 We have created a documentation page to stress the tradeoffs taken. (#8319)
 - `material-ui@next` has just [crossed **react-toolbox**](https://npm-stat.com/charts.html?package=react-scrollbar-size&package=react-toolbox&from=2017-01-24&to=2017-09-24) in terms of downloads on npm.
 
@@ -1101,7 +1101,7 @@ Push #7741 initiative forward (use `value` and `onChange` as controlling propert
 #### Docs
 
 - [docs] Use Next.js: x2 performance (#7759) @oliviertassinari
-- [docs] Add the 'data grid for Material-UI' reference (#7786) @dxbykov
+- [docs] Add the 'data grid for Material-Next' reference (#7786) @dxbykov
 - [docs] Renamed the styleSheet argument in withStyles to styles (#7819) @phiilu
 - [docs] Advanced table (#7824) @oliviertassinari
 - [docs] Fix typo (#7777) @Merkyl999x
@@ -1598,11 +1598,11 @@ This release introduces an important change in the API and the implementation.
 Each exposed component is wrapped with a `withStyles` Higher-order component.
 This HOC has different responsibilities, the one you gonna be interested in is
 regarding the `classes` property. Now, we consider the CSS as a public API.
-You now have two way to customize absolutely all the CSS injected by Material-UI.
+You now have two way to customize absolutely all the CSS injected by Material-Next.
 Either the instance level with the `classes` property or the class level with the
 `overrides` theme property.
 
-To [learn more about it](https://material-ui-next.com/customization/overrides), have a look at the documentation. Also, these options are automatically [documented](http://0.0.0.0:3000/component-api/button#classes).
+To learn more about it, have a look at the documentation.
 
 ### Breaking changes
 
@@ -1784,7 +1784,7 @@ Big thanks to the 11 contributors who are pushing the `next` branch forward.
 
 We are continuing investing in the documentation and the test suite.
 
-Visual regression tests are now sent to [argos-ci](https://www.argos-ci.com/mui-org/material-ui).
+Visual regression tests are now sent to [argos-ci](https://www.argos-ci.com/material-next/material-next).
 Thanks @agamrafaeli for increasing the test coverage of 1% since the last release (95.23%).
 Thanks @mbrookes for fixing the inconsistency of the API and improving the API.
 
@@ -2105,14 +2105,14 @@ A big thanks to the 20 contributors who are making this release possible.
 We are releasing sooner than we use to for this **special day** :christmas_tree::gift:.
 17 contributors are making that last release of the year possible.
 
-2016 has been an exceptional year for Material-UI.
+2016 has been an exceptional year for Material-Next.
 - We went from 40k to 180k [downloads](https://npm-stat.com/charts.html?package=material-ui&from=2014-12-24&to=2016-12-25) a month. :package:
-- We went from 12k to 22k [stars](http://www.timqian.com/star-history/#mui-org/material-ui). :star:
+- We went from 12k to 22k [stars](http://www.timqian.com/star-history/#material-next/material-next). :star:
 
 That wouldn't have been possible without this awesome community.
 **Thank you!**
 
-But this's just the beginning, some [exciting stuff](https://github.com/mui-org/material-ui/blob/master/ROADMAP.md) is coming in 2017 :sparkles:.
+But this's just the beginning, some [exciting stuff](https://github.com/material-next/material-next/blob/master/ROADMAP.md) is coming in 2017 :sparkles:.
 You can preview a **very early** version of the `next` branch following [that link](https://material-ui-next.com).
 
 #### Component Fixes / Enhancements
@@ -2191,7 +2191,7 @@ This is another release improving the stability of `v0.16.x`.
 ## 0.16.3
 ###### _Nov 17, 2016_
 
-This release is intended to solve an [issue](https://github.com/mui-org/material-ui/issues/5573) with `react-tap-event-plugin` following the release of React `v15.4.0`.
+This release is intended to solve an [issue](https://github.com/material-next/material-next/issues/5573) with `react-tap-event-plugin` following the release of React `v15.4.0`.
 
 #### Component Fixes / Enhancements
 
@@ -2300,7 +2300,7 @@ We are switching in goal so we can release changes more **often**.
 Regarding going forward, this is likely to be the last `minor` release using the **inline-style** approach.
 We are migrating all the components to a **CSS-in-JS** approach on the `next` branch.
 
-For more details, you can have a look a the [next milestone](https://github.com/mui-org/material-ui/milestone/14) as well as the [next project](https://github.com/mui-org/material-ui/projects/1)
+For more details, you can have a look a the [next milestone](https://github.com/material-next/material-next/milestone/14) as well as the [next project](https://github.com/material-next/material-next/projects/1)
 
 :warning: New features based on the `master` branch (inline-style) have low priority and will most likely not be reviewed nor merged.
 
@@ -2688,7 +2688,7 @@ documentation page.
 
 Have a ton of imports? almost had a heart attack? worry not, we also made a tool
 to ease your pain. checkout the
-[readme](https://github.com/mui-org/material-ui/tree/master/packages/material-ui-codemod/README.md).
+[readme](https://github.com/material-next/material-next/tree/master/packages/material-ui-codemod/README.md).
 
 ##### Breaking Changes
 - [Core] Improve import path for published lib (#3921)
@@ -2778,7 +2778,7 @@ Although we discourage you to use this library like that.
 ###### _Mar 18, 2016_
 
 ##### Breaking Changes
-- [Core] if you used Material-UI from npm in CommonJS environment,
+- [Core] if you used Material-Next from npm in CommonJS environment,
 you need to add `.default` to your requires (#3648):
 
 ```diff
@@ -2878,7 +2878,7 @@ import MUI from 'material-ui'; // no changes here :D
 This release includes huge improvements to the implementation
 of components and utility modules. The most important improvement
 is the removal of mixins from the library, thanks to the
-[great efforts](https://github.com/mui-org/material-ui/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+author%3Anewoga+style-propable)
+[great efforts](https://github.com/material-next/material-next/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+author%3Anewoga+style-propable)
 of @newoga :+1:
 
 There are also improvements to the unit testing infrastructure. We own this
@@ -3312,7 +3312,7 @@ Have a look at them as well.
 ###### _Oct 21, 2015_
 
 ##### Breaking Changes
-- Material-UI for React 0.14.x
+- Material-Next for React 0.14.x
 
 #### Component Fixes / Enhancements
 - FloatingActionButton now has iconStyle prop (#1575)
@@ -3331,7 +3331,7 @@ v0.12.4 should have really been v0.13.0 as it breaks compatibility with React 0.
 ## 0.12.4
 ###### _Oct 19, 2015_
 
-**This version is not compatible with React 0.13.x.** If you're on React 0.13.x, use Material-UI v0.12.5 instead.
+**This version is not compatible with React 0.13.x.** If you're on React 0.13.x, use Material-Next v0.12.5 instead.
 
 ##### General
 - React 0.14 compatible
@@ -3766,13 +3766,13 @@ We've cleaned up some of our click/tap events. (#771) Upgrade should be straight
 
 ##### Breaking Changes
 - Refactored all CSS into Javascript (#30, #316)
-  - All Material-UI components now have their styles defined inline. This solves
+  - All Material-Next components now have their styles defined inline. This solves
     many problems with CSS as mentions in [@vjeux's presentation](https://speakerdeck.com/vjeux/react-css-in-js)
     such as polluting the global namespace with classes that really should be
     component specific. In addition to the benefits mentioned in the
-    presentation, inline styles allow Material-UI to become CSS preprocessor
+    presentation, inline styles allow Material-Next to become CSS preprocessor
     agnostic and make Themeing much more dynamic and simple.
-    [Read our CSS in JS discussion](https://github.com/mui-org/material-ui/issues/30)
+    [Read our CSS in JS discussion](https://github.com/material-next/material-next/issues/30)
   - Upgrade path:
     - *If you are overriding component CSS classes:* Redefine your overrides as
       an object following [React's inline styles format](https://facebook.github.io/react/tips/inline-styles.html),
@@ -3781,12 +3781,12 @@ We've cleaned up some of our click/tap events. (#771) Upgrade should be straight
       overriding a nested element of the component, check the component's
       documentation and see if there is a style prop available for that nested
       element. If a style prop does not exist for the component's nested element
-      that you are trying to override, [submit an issue](https://github.com/mui-org/material-ui/issues/new)
+      that you are trying to override, [submit an issue](https://github.com/material-next/material-next/issues/new)
       requesting to have it added.
-    - *If you are using any of Material-UI's Less files:* These files have been
-      refactored into their [own javascript files](https://github.com/mui-org/material-ui/tree/css-in-js/src/styles)
+    - *If you are using any of Material-Next's Less files:* These files have been
+      refactored into their [own javascript files](https://github.com/material-next/material-next/tree/css-in-js/src/styles)
       and can be accessed like so `var FILENAME = require('material-ui').Styles.FILENAME;`.
-      Material-UI has moved away from being a CSS Framework to being simply a
+      Material-Next has moved away from being a CSS Framework to being simply a
       set of React components.
 - Paper component no longer generates nested divs (#601)
   - This allowed us to simplify styling of paper containers. As a result, styling the inner div is no longer necessary.
@@ -3795,7 +3795,7 @@ We've cleaned up some of our click/tap events. (#771) Upgrade should be straight
 - Themes have been added (#202)
 - Requiring individual components is now supported (#363)
   - An example would be: `var SvgIcon = require('material-ui/lib/svg-icon);`
-  - The `/lib` folder in Material-UI contains the file structure needed when referencing individual components.
+  - The `/lib` folder in Material-Next contains the file structure needed when referencing individual components.
 
 ##### Components
 - Date Picker
@@ -3941,7 +3941,7 @@ We've cleaned up some of our click/tap events. (#771) Upgrade should be straight
       For FontIcon, create a custom font file and include it in your project and just pass the Icon
       className into the FontIcon component. For SvgIcon, create a new React component that represents
       that particular icon. This will allow you to package your icons inside your js files. Examples
-      can be found [here](https://github.com/mui-org/material-ui/tree/master/src/js/svg-icons).
+      can be found [here](https://github.com/material-next/material-next/tree/master/src/js/svg-icons).
     - Additionally, all components that had an icon prop now take an iconClassName prop instead. These
       include FloatingActionButton, IconButton, Menu, MenuItem, and DropDownIcon.
 
@@ -4225,7 +4225,7 @@ We've cleaned up some of our click/tap events. (#771) Upgrade should be straight
 
 ## 0.2.2
 ###### _Nov. 11, 2014_
-- Changed project structure to be less confusing. Material-UI components/styles live in the src directory.
+- Changed project structure to be less confusing. Material-Next components/styles live in the src directory.
   Docs site code lives in the docs directory. This still allows us to easily test components in the docs site
   as we are working on them
 - Added .editorconfig to help keep code formatting consistent among contributors. See http://editorconfig.org/

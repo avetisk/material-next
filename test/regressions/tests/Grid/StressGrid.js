@@ -2,9 +2,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import Paper from 'material-ui/Paper';
-import { withStyles } from 'material-ui/styles';
-import Grid from 'material-ui/Grid';
+import Paper from '@material-next/core/Paper';
+import { withStyles } from '@material-next/core/styles';
+import Grid from '@material-next/core/Grid';
 
 const styles = (theme: Object) => ({
   root: {

@@ -2,9 +2,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Typography from 'material-ui/Typography';
-import Grid from 'material-ui/Grid';
+import { withStyles } from '@material-next/core/styles';
+import Typography from '@material-next/core/Typography';
+import Grid from '@material-next/core/Grid';
 import Link from 'docs/src/modules/components/Link';
 
 const styleSheet = theme => ({
@@ -39,13 +39,13 @@ function AppFooter(props: Object) {
             <Grid item xs={12} sm={6}>
               <ul className={classes.list}>
                 <li className={classes.listItem}>
-                  <Link href="https://github.com/mui-org/material-ui/tree/v1-beta">GitHub</Link>
+                  <Link href="https://github.com/@material-next/core/@material-next/core/tree/v1-beta">GitHub</Link>
                 </li>
                 <li className={classes.listItem}>
-                  <Link href="https://twitter.com/MaterialUI">Twitter</Link>
+                  <Link href="https://twitter.com/MaterialNext">Twitter</Link>
                 </li>
                 <li className={classes.listItem}>
-                  <Link href="https://github.com/mui-org/material-ui/tree/v1-beta/examples">
+                  <Link href="https://github.com/@material-next/core/@material-next/core/tree/v1-beta/examples">
                     Examples
                   </Link>
                 </li>

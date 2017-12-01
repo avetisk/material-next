@@ -139,7 +139,7 @@ export function getLuminance(color: string) {
     return decomposedColor.values[2] / 100;
   }
 
-  throw new Error(`Material-UI: unsupported \`${color}\` color.`);
+  throw new Error(`Material-Next: unsupported \`${color}\` color.`);
 }
 
 /**

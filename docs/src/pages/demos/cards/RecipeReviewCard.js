@@ -2,18 +2,18 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from '@material-next/core/styles';
 import classnames from 'classnames';
-import Card, { CardHeader, CardMedia, CardContent, CardActions } from 'material-ui/Card';
-import Collapse from 'material-ui/transitions/Collapse';
-import Avatar from 'material-ui/Avatar';
-import IconButton from 'material-ui/IconButton';
-import Typography from 'material-ui/Typography';
-import red from 'material-ui/colors/red';
-import FavoriteIcon from 'material-ui-icons/Favorite';
-import ShareIcon from 'material-ui-icons/Share';
-import ExpandMoreIcon from 'material-ui-icons/ExpandMore';
-import MoreVertIcon from 'material-ui-icons/MoreVert';
+import Card, { CardHeader, CardMedia, CardContent, CardActions } from '@material-next/core/Card';
+import Collapse from '@material-next/core/transitions/Collapse';
+import Avatar from '@material-next/core/Avatar';
+import IconButton from '@material-next/core/IconButton';
+import Typography from '@material-next/core/Typography';
+import red from '@material-next/core/colors/red';
+import FavoriteIcon from '@material-next/icons/Favorite';
+import ShareIcon from '@material-next/icons/Share';
+import ExpandMoreIcon from '@material-next/icons/ExpandMore';
+import MoreVertIcon from '@material-next/icons/MoreVert';
 
 const styles = theme => ({
   card: {

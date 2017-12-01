@@ -22,7 +22,7 @@ export default function createGenerateClassName(): generateClassName {
       // eslint-disable-next-line no-console
       console.error(
         [
-          'Material-UI: we have detected more than needed creation of the class name generator.',
+          'Material-Next: we have detected more than needed creation of the class name generator.',
           'You should only use one class name generator on the client side.',
           'If you do otherwise, you take the risk to have conflicting class names in production.',
         ].join('\n'),
@@ -35,7 +35,7 @@ export default function createGenerateClassName(): generateClassName {
     warning(
       ruleCounter < 1e10,
       [
-        'Material-UI: you might have a memory leak.',
+        'Material-Next: you might have a memory leak.',
         'The ruleCounter is not supposed to grow that much.',
       ].join(''),
     );

@@ -15,7 +15,7 @@ System icons are also used to represent common actions like trash, print, and sa
 and are commonly found in app bars, toolbars, buttons, and lists.
 Google has provided a set of [Material icons](https://material.io/icons/) that follow these guidelines.
 
-Material-UI provides two components to render system icons: `Icon` for rendering font icons, and `SvgIcon` for rendering SVG paths.
+Material-Next provides two components to render system icons: `Icon` for rendering font icons, and `SvgIcon` for rendering SVG paths.
 
 ### Font Icons
 
@@ -39,13 +39,13 @@ The `SvgIcon` component takes an SVG `path` element as its child and converts it
 and allows the icon to be styled and respond to mouse events.
 
 The resulting icon can be used as is,
-or included as a child for other Material-UI components that use icons.
+or included as a child for other Material-Next components that use icons.
 
 {{demo='pages/style/SvgIcons.js'}}
 
 Looking for SVG icons? There are a lot of projects out there.
 We have found one that provides 2,000+ unofficial Material Design Icons: [https://materialdesignicons.com](https://materialdesignicons.com/).
-You can use the [mdi-material-ui](https://github.com/TeamWertarbyte/mdi-material-ui) integration project between this raw list of icons and Material-UI.
+You can use the [mdi-material-ui](https://github.com/TeamWertarbyte/mdi-material-ui) integration project between this raw list of icons and Material-Next.
 
 ### SVG Material icons
 

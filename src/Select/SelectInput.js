@@ -226,16 +226,16 @@ class SelectInput extends React.Component<ProvidedProps & Props, State> {
     if (native) {
       warning(
         multiple === false,
-        'Material-UI: you can not use the `native` and `multiple` properties ' +
+        'Material-Next: you can not use the `native` and `multiple` properties ' +
           'at the same time on a `Select` component.',
       );
       warning(
         !renderValue,
-        'Material-UI: the `renderValue` property is not used by the native implementation.',
+        'Material-Next: the `renderValue` property is not used by the native implementation.',
       );
       warning(
         !displayEmpty,
-        'Material-UI: the `displayEmpty` property is not used by the native implementation.',
+        'Material-Next: the `displayEmpty` property is not used by the native implementation.',
       );
 
       return (
@@ -267,7 +267,7 @@ class SelectInput extends React.Component<ProvidedProps & Props, State> {
 
     if (value === undefined) {
       throw new Error(
-        'Material-UI: the `value` property is required ' +
+        'Material-Next: the `value` property is required ' +
           'when using the `Select` component with `native=false`.',
       );
     }
@@ -295,7 +295,7 @@ class SelectInput extends React.Component<ProvidedProps & Props, State> {
       if (multiple) {
         if (!Array.isArray(value)) {
           throw new Error(
-            'Material-UI: the `value` property must be an array ' +
+            'Material-Next: the `value` property must be an array ' +
               'when using the `Select` component with `multiple`.',
           );
         }

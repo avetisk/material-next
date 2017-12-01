@@ -1,9 +1,9 @@
 // @flow weak
 
 import React from 'react';
-import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
-import Typography from 'material-ui/Typography';
-import Button from 'material-ui/Button';
+import { MuiThemeProvider, createMuiTheme } from '@material-next/core/styles';
+import Typography from '@material-next/core/Typography';
+import Button from '@material-next/core/Button';
 
 function theme(outerTheme) {
   return createMuiTheme({

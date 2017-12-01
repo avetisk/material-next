@@ -3,14 +3,14 @@
 import React from 'react';
 import { findDOMNode } from 'react-dom';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import { FormControl, FormLabel, FormControlLabel } from 'material-ui/Form';
-import Radio, { RadioGroup } from 'material-ui/Radio';
-import Grid from 'material-ui/Grid';
-import Typography from 'material-ui/Typography';
-import Button from 'material-ui/Button';
-import Popover from 'material-ui/Popover';
-import Input, { InputLabel } from 'material-ui/Input';
+import { withStyles } from '@material-next/core/styles';
+import { FormControl, FormLabel, FormControlLabel } from '@material-next/core/Form';
+import Radio, { RadioGroup } from '@material-next/core/Radio';
+import Grid from '@material-next/core/Grid';
+import Typography from '@material-next/core/Typography';
+import Button from '@material-next/core/Button';
+import Popover from '@material-next/core/Popover';
+import Input, { InputLabel } from '@material-next/core/Input';
 
 const styles = theme => ({
   button: {

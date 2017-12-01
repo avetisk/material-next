@@ -53,7 +53,7 @@ class Index extends React.Component<WithStyles<keyof typeof styles>, State> {
           </DialogActions>
         </Dialog>
         <Typography type="display1" gutterBottom>
-          Material-UI
+          Material-Next
         </Typography>
         <Typography type="subheading" gutterBottom>
           example project

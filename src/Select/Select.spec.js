@@ -52,7 +52,7 @@ describe('<Select />', () => {
       shallow(<Select {...props} />);
       assert.match(
         consoleErrorMock.args()[0][0],
-        /Material-UI: you have provided an invalid value to the `input` property/,
+        /Material-Next: you have provided an invalid value to the `input` property/,
       );
     });
   });

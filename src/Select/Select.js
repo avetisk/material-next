@@ -94,7 +94,7 @@ export type Props = {
    */
   displayEmpty: boolean,
   /**
-   * An `Input` element; does not have to be a material-ui specific `Input`.
+   * An `Input` element; does not have to be a material-next specific `Input`.
    */
   input: Element<any>,
   /**
@@ -150,7 +150,7 @@ class Select extends React.Component<ProvidedProps & Props> {
     warning(
       isMuiElement(input, ['Input']),
       [
-        'Material-UI: you have provided an invalid value to the `input` property.',
+        'Material-Next: you have provided an invalid value to the `input` property.',
         'We expect an element instance of the `Input` component.',
       ].join('\n'),
     );

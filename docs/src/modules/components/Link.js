@@ -6,8 +6,8 @@ import type { ElementType, Node } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import NextLink from 'next/link';
-import { withStyles } from 'material-ui/styles';
-import { capitalizeFirstLetter } from 'material-ui/utils/helpers';
+import { withStyles } from '@material-next/core/styles';
+import { capitalizeFirstLetter } from '@material-next/core/utils/helpers';
 
 const styles = theme => ({
   root: {

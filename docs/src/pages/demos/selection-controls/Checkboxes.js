@@ -2,10 +2,10 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import green from 'material-ui/colors/green';
-import { FormGroup, FormControlLabel } from 'material-ui/Form';
-import Checkbox from 'material-ui/Checkbox';
+import { withStyles } from '@material-next/core/styles';
+import green from '@material-next/core/colors/green';
+import { FormGroup, FormControlLabel } from '@material-next/core/Form';
+import Checkbox from '@material-next/core/Checkbox';
 
 const styles = {
   checked: {

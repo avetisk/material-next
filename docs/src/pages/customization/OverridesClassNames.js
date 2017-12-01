@@ -2,8 +2,8 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Button from 'material-ui/Button';
+import { withStyles } from '@material-next/core/styles';
+import Button from '@material-next/core/Button';
 
 // We can inject some CSS into the DOM.
 const styles = {

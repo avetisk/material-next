@@ -3,10 +3,10 @@
 const path = require('path');
 const webpack = require('webpack');
 
-const LIBRARY_NAME = 'material-ui';
+const LIBRARY_NAME = 'material-next';
 const baseConfig = {
   entry: {
-    'material-ui': path.join(__dirname, '../src/index.js'),
+    'material-next': path.join(__dirname, '../src/index.js'),
   },
   output: {
     path: path.join(__dirname, '../build/umd'),

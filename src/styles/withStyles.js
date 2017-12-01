@@ -116,7 +116,7 @@ const withStyles = (
   warning(
     indexCounter < 0,
     [
-      'Material-UI: you might have a memory leak.',
+      'Material-Next: you might have a memory leak.',
       'The indexCounter is not supposed to grow that much.',
     ].join(' '),
   );
@@ -306,7 +306,7 @@ const withStyles = (
             warning(
               renderedClasses[key] || this.disableStylesGeneration,
               [
-                `Material-UI: the key \`${key}\` ` +
+                `Material-Next: the key \`${key}\` ` +
                   `provided to the classes property is not implemented in ${getDisplayName(
                     Component,
                   )}.`,
@@ -319,7 +319,7 @@ const withStyles = (
             warning(
               !classesProp[key] || typeof classesProp[key] === 'string',
               [
-                `Material-UI: the key \`${key}\` ` +
+                `Material-Next: the key \`${key}\` ` +
                   `provided to the classes property is not valid for ${getDisplayName(Component)}.`,
                 `You need to provide a non empty string instead of: ${classesProp[key]}.`,
               ].join('\n'),

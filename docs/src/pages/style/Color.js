@@ -2,9 +2,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import * as colors from 'material-ui/colors';
-import { getContrastRatio } from 'material-ui/styles/colorManipulator';
+import { withStyles } from '@material-next/core/styles';
+import * as colors from '@material-next/core/colors';
+import { getContrastRatio } from '@material-next/core/styles/colorManipulator';
 
 const mainColors = [
   'Red',

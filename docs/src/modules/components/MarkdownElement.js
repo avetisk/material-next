@@ -2,7 +2,7 @@
 
 import React from 'react';
 import classNames from 'classnames';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from '@material-next/core/styles';
 import marked from 'marked';
 import prism from 'docs/src/modules/utils/prism';
 

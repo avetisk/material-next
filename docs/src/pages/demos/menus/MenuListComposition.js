@@ -3,13 +3,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Button from 'material-ui/Button';
-import { MenuItem, MenuList } from 'material-ui/Menu';
-import Grow from 'material-ui/transitions/Grow';
-import Paper from 'material-ui/Paper';
-import { withStyles } from 'material-ui/styles';
+import Button from '@material-next/core/Button';
+import { MenuItem, MenuList } from '@material-next/core/Menu';
+import Grow from '@material-next/core/transitions/Grow';
+import Paper from '@material-next/core/Paper';
+import { withStyles } from '@material-next/core/styles';
 import { Manager, Target, Popper } from 'react-popper';
-import ClickAwayListener from 'material-ui/utils/ClickAwayListener';
+import ClickAwayListener from '@material-next/core/utils/ClickAwayListener';
 
 const styles = {
   root: {

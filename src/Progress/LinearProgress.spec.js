@@ -287,13 +287,13 @@ describe('<LinearProgress />', () => {
       assert.strictEqual(consoleErrorMock.callCount(), 1);
       assert.match(
         consoleErrorMock.args()[0][0],
-        /Warning: Material-UI: you need to provide a value property/,
+        /Warning: Material-Next: you need to provide a value property/,
       );
       shallow(<LinearProgress mode="buffer" value={undefined} />);
       assert.strictEqual(consoleErrorMock.callCount(), 2);
       assert.match(
         consoleErrorMock.args()[1][0],
-        /Warning: Material-UI: you need to provide a value property/,
+        /Warning: Material-Next: you need to provide a value property/,
       );
     });
   });

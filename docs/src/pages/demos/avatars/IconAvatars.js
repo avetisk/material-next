@@ -2,13 +2,13 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import pink from 'material-ui/colors/pink';
-import green from 'material-ui/colors/green';
-import Avatar from 'material-ui/Avatar';
-import FolderIcon from 'material-ui-icons/Folder';
-import PageviewIcon from 'material-ui-icons/Pageview';
-import AssignmentIcon from 'material-ui-icons/Assignment';
+import { withStyles } from '@material-next/core/styles';
+import pink from '@material-next/core/colors/pink';
+import green from '@material-next/core/colors/green';
+import Avatar from '@material-next/core/Avatar';
+import FolderIcon from '@material-next/icons/Folder';
+import PageviewIcon from '@material-next/icons/Pageview';
+import AssignmentIcon from '@material-next/icons/Assignment';
 
 const styles = {
   avatar: {

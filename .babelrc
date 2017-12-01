@@ -1,5 +1,5 @@
 {
-  "presets": ["./scripts/material-ui-babel-preset-env", "stage-1", "react"],
+  "presets": ["./scripts/material-next-babel-preset-env", "stage-1", "react"],
   "plugins": [
     "transform-object-assign"
   ],
@@ -29,8 +29,8 @@
           {
             "alias": {
               "pages": "./pages",
-              "material-ui": "./src",
-              "material-ui-icons": './packages/material-ui-icons/src',
+              "@material-next/core": "./src",
+              "@material-next/icons": './packages/material-next-icons/src',
               "docs": "./docs"
             }
           }
@@ -50,8 +50,8 @@
           {
             "alias": {
               "pages": "./pages",
-              "material-ui": "./src",
-              "material-ui-icons": './packages/material-ui-icons/src',
+              "@material-next/core": "./src",
+              "@material-next/icons": './packages/material-next-icons/src',
               "docs": "./docs"
             }
           }

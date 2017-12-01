@@ -291,7 +291,7 @@ class Popover extends React.Component<ProvidedProps & Props> {
     warning(
       elemRect.height < heightThreshold || !elemRect.height || !heightThreshold,
       [
-        'Material-UI: the popover component is too tall.',
+        'Material-Next: the popover component is too tall.',
         `Some part of it can not be seen on the screen (${elemRect.height - heightThreshold}px).`,
         'Please consider adding a `max-height` to improve the user-experience.',
       ].join('\n'),
@@ -353,7 +353,7 @@ class Popover extends React.Component<ProvidedProps & Props> {
       warning(
         this.props.anchorOrigin.vertical === 'top',
         [
-          'Material-UI: you can not change the default `anchorOrigin.vertical` value when also ',
+          'Material-Next: you can not change the default `anchorOrigin.vertical` value when also ',
           'providing the `getContentAnchorEl` property to the popover component.',
           'Only use one of the two properties',
           'Set `getContentAnchorEl` to null or left `anchorOrigin.vertical` unchanged',

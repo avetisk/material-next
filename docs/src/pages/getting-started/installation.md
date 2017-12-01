@@ -1,18 +1,18 @@
 # Installation
 
-Material-UI is available as an [npm package](https://www.npmjs.org/package/material-ui).
+Material-Next is available as an [npm package](https://www.npmjs.org/package/@material-ui/core).
 
 ## npm
 
 To install and save in your `package.json` dependencies, run:
 
 ```
-npm install material-ui@next --save
+npm install @material-next/core --save
 ```
 
 ## Roboto Font
 
-Material-UI was designed with the [Roboto](http://www.google.com/fonts/specimen/Roboto)
+Material-Next was designed with the [Roboto](http://www.google.com/fonts/specimen/Roboto)
 font in mind. So be sure to follow [these instructions](/style/typography#general).
 
 ## Icon Font
@@ -31,4 +31,4 @@ you must first install the [material-ui-icons](https://www.npmjs.org/package/mat
 npm install material-ui-icons
 ```
 
-This package replaces the `svg-icons` previously included with Material-UI.
+This package replaces the `svg-icons` previously included with Material-Next.

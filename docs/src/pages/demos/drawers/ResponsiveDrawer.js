@@ -2,16 +2,16 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Drawer from 'material-ui/Drawer';
-import AppBar from 'material-ui/AppBar';
-import Toolbar from 'material-ui/Toolbar';
-import List from 'material-ui/List';
-import Typography from 'material-ui/Typography';
-import IconButton from 'material-ui/IconButton';
-import Hidden from 'material-ui/Hidden';
-import Divider from 'material-ui/Divider';
-import MenuIcon from 'material-ui-icons/Menu';
+import { withStyles } from '@material-next/core/styles';
+import Drawer from '@material-next/core/Drawer';
+import AppBar from '@material-next/core/AppBar';
+import Toolbar from '@material-next/core/Toolbar';
+import List from '@material-next/core/List';
+import Typography from '@material-next/core/Typography';
+import IconButton from '@material-next/core/IconButton';
+import Hidden from '@material-next/core/Hidden';
+import Divider from '@material-next/core/Divider';
+import MenuIcon from '@material-next/icons/Menu';
 import { mailFolderListItems, otherMailFolderListItems } from './tileData';
 
 const drawerWidth = 240;

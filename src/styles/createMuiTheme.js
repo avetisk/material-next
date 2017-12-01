@@ -43,7 +43,7 @@ function createMuiTheme(options: Object = {}) {
 
   warning(
     muiTheme.shadows.length === 25,
-    'Material-UI: the shadows array provided to createMuiTheme should support 25 elevations.',
+    'Material-Next: the shadows array provided to createMuiTheme should support 25 elevations.',
   );
 
   return muiTheme;

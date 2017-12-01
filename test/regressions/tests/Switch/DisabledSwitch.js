@@ -1,8 +1,8 @@
 // @flow
 
 import React from 'react';
-import Switch from 'material-ui/Switch';
-import { FormControlLabel } from 'material-ui/Form';
+import Switch from '@material-next/core/Switch';
+import { FormControlLabel } from '@material-next/core/Form';
 
 export default function DisabledSwitch() {
   return (

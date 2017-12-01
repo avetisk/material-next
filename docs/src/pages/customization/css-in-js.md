@@ -1,12 +1,12 @@
 # CSS in JS
 
-Material-UI aims to provide strong foundations for building dynamic UIs.
+Material-Next aims to provide strong foundations for building dynamic UIs.
 For the sake of simplicity **we expose the internal styling solution to users**.
 You can use it, but you don't have to. This styling solution is interoperable with other solutions like [PostCSS](https://github.com/postcss/postcss), [CSS modules](https://github.com/css-modules), or [styled-components](https://github.com/styled-components/styled-components).
 
-## Material-UI's styling solution
+## Material-Next's styling solution
 
-In previous versions, Material-UI has used LESS, then a custom inline-style solution to write the style of the
+In previous versions, Material-Next has used LESS, then a custom inline-style solution to write the style of the
 components, but these approaches have proven to be limited. Most recently, we have [moved toward](https://github.com/oliviertassinari/a-journey-toward-better-style)
 a *CSS-in-JS* solution. It **unlocks many great features** (theme nesting, dynamic styles, self-support, etc.).
 We think that it's the future:
@@ -21,12 +21,12 @@ higher-order component to inject an array of styles into the DOM as CSS, using J
 
 ## JSS
 
-Material-UI's styling solution uses [JSS](https://github.com/cssinjs/jss) at its core.
+Material-Next's styling solution uses [JSS](https://github.com/cssinjs/jss) at its core.
 It's a [high performance](https://github.com/cssinjs/jss/blob/master/docs/performance.md) JS to CSS compiler which works at runtime and server-side.
 It is about 8 kB (minified and gzipped) and is extensible via a [plugins](https://github.com/cssinjs/jss/blob/master/docs/plugins.md) API.
 
 If you end up using this styling solution in your codebase, you're going to need to *learn the API*.
-The best place to start is by looking at the features that each [plugin](http://cssinjs.org/plugins) provides. Material-UI uses the [jss-preset-default](http://cssinjs.org/jss-preset-default) module. You can always add new plugins if needed with the [`JssProvider`](https://github.com/cssinjs/react-jss#custom-setup) helper.
+The best place to start is by looking at the features that each [plugin](http://cssinjs.org/plugins) provides. Material-Next uses the [jss-preset-default](http://cssinjs.org/jss-preset-default) module. You can always add new plugins if needed with the [`JssProvider`](https://github.com/cssinjs/react-jss#custom-setup) helper.
 
 If you wish to build your own instance of `jss` **and** support *rtl* make sure you also include the [jss-rtl](https://github.com/alitaheri/jss-rtl) plugin.
 Check the jss-rtl [readme](https://github.com/alitaheri/jss-rtl#simple-usage) to learn how.
@@ -66,7 +66,7 @@ They are easy to debug in development and as short as possible in production:
 
 ## CSS injection order
 
-The CSS injected by Material-UI to style a component has the highest specificity possible as the `<link />` is injected at the bottom of the `<head />`.
+The CSS injected by Material-Next to style a component has the highest specificity possible as the `<link />` is injected at the bottom of the `<head />`.
 This way, we ensure the components always render correctly.
 
 You might, however, also want to override these styles, for example with styled-components.
@@ -76,7 +76,7 @@ By adjusting the placement of the `insertionPoint` comment within your HTML body
 ```jsx
 <head>
   <!-- insertion-point-jss -->
-  <title>Material-UI</title>
+  <title>Material-Next</title>
 </head>
 ```
 
@@ -87,7 +87,7 @@ import preset from 'jss-preset-default';
 import createGenerateClassName from 'material-ui/styles/createGenerateClassName';
 
 const jss = create(preset());
-// Custom Material-UI class name generator for better debug and performance.
+// Custom Material-Next class name generator for better debug and performance.
 jss.options.createGenerateClassName = createGenerateClassName;
 // We define a custom insertion point JSS will look for injecting the styles in the DOM.
 jss.options.insertionPoint = 'insertion-point-jss';
@@ -107,8 +107,8 @@ export default App;
 
 ### React JSS
 
-Material-UI's styling solution shares many building blocks with [react-jss](https://github.com/cssinjs/react-jss).
-We went ahead and forked the project in order to handle our unique needs, but we're working to merge the changes and fixes from Material-UI back to react-jss.
+Material-Next's styling solution shares many building blocks with [react-jss](https://github.com/cssinjs/react-jss).
+We went ahead and forked the project in order to handle our unique needs, but we're working to merge the changes and fixes from Material-Next back to react-jss.
 
 In the following demo we demonstrate how to use `injectSheet()` and "the styles as a function of the properties" feature:
 
@@ -141,7 +141,7 @@ import preset from 'jss-preset-default';
 import createGenerateClassName from 'material-ui/styles/createGenerateClassName';
 
 const jss = create(preset());
-// Custom Material-UI class name generator for better debug and performance.
+// Custom Material-Next class name generator for better debug and performance.
 jss.options.createGenerateClassName = createGenerateClassName;
 
 function App() {

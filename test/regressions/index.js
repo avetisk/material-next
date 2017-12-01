@@ -2,7 +2,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
+import { MuiThemeProvider, createMuiTheme } from '@material-next/core/styles';
 import vrtest from 'vrtest/client';
 import webfontloader from 'webfontloader';
 import TestViewer from './TestViewer';

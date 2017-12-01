@@ -6,12 +6,12 @@
  */
 
 import { assert } from 'chai';
-import * as MaterialUI from './index';
+import * as MaterialNext from './index';
 
-describe('Material-UI', () => {
-  it('should have exports', () => assert.ok(MaterialUI));
+describe('Material-Next', () => {
+  it('should have exports', () => assert.ok(MaterialNext));
 
   it('should not do undefined exports', () => {
-    Object.keys(MaterialUI).forEach(exportKey => assert.ok(MaterialUI[exportKey]));
+    Object.keys(MaterialNext).forEach(exportKey => assert.ok(MaterialNext[exportKey]));
   });
 });

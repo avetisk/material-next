@@ -2,15 +2,15 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from '@material-next/core/styles';
 import {
   FormLabel,
   FormControl,
   FormGroup,
   FormControlLabel,
   FormHelperText,
-} from 'material-ui/Form';
-import Checkbox from 'material-ui/Checkbox';
+} from '@material-next/core/Form';
+import Checkbox from '@material-next/core/Checkbox';
 
 const styles = {};
 

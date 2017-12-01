@@ -100,7 +100,7 @@ function StepContent(props: ProvidedProps & Props) {
 
   warning(
     orientation === 'vertical',
-    'Material-UI: <StepContent /> is only designed for use with the vertical stepper.',
+    'Material-Next: <StepContent /> is only designed for use with the vertical stepper.',
   );
 
   const className = classNames(

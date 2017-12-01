@@ -1,9 +1,9 @@
 /* eslint-disable flowtype/require-valid-file-annotation */
 
 import React from 'react';
-import Button from 'material-ui/Button';
-import Snackbar from 'material-ui/Snackbar';
-import Fade from 'material-ui/transitions/Fade';
+import Button from '@material-next/core/Button';
+import Snackbar from '@material-next/core/Snackbar';
+import Fade from '@material-next/core/transitions/Fade';
 
 class FadeSnackbar extends React.Component {
   state = {

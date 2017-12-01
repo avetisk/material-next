@@ -71,7 +71,7 @@ describe('createGenerateClassName', () => {
         assert.strictEqual(consoleErrorMock.callCount() > 0, true);
         assert.match(
           consoleErrorMock.args()[0][0],
-          /Material-UI: we have detected more than needed creation of the/,
+          /Material-Next: we have detected more than needed creation of the/,
         );
       });
     });

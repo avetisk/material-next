@@ -2,12 +2,12 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Avatar from 'material-ui/Avatar';
-import Chip from 'material-ui/Chip';
-import FaceIcon from 'material-ui-icons/Face';
-import Done from 'material-ui-icons/Done';
-import grey from 'material-ui/colors/grey';
+import { withStyles } from '@material-next/core/styles';
+import Avatar from '@material-next/core/Avatar';
+import Chip from '@material-next/core/Chip';
+import FaceIcon from '@material-next/icons/Face';
+import Done from '@material-next/icons/Done';
+import grey from '@material-next/core/colors/grey';
 
 const styles = theme => ({
   chip: {

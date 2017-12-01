@@ -16,7 +16,7 @@ module.exports = {
     ecmaVersion: 7,
     sourceType: 'module',
   },
-  plugins: ['babel', 'import', 'jsx-a11y', 'mocha', 'flowtype', 'material-ui', 'prettier'],
+  plugins: ['babel', 'import', 'jsx-a11y', 'mocha', 'flowtype', 'material-next', 'prettier'],
   settings: {
     'import/resolver': {
       webpack: {
@@ -79,7 +79,7 @@ module.exports = {
     'react/default-props-match-prop-types': 'off', // Buggy
     'react/jsx-curly-brace-presence': 'off', // Buggy
 
-    'material-ui/docgen-ignore-before-comment': 'error',
+    '@material-next/core/docgen-ignore-before-comment': 'error',
 
     'mocha/handle-done-callback': 'error',
     'mocha/no-exclusive-tests': 'error',

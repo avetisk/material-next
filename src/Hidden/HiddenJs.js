@@ -42,7 +42,7 @@ function HiddenJs(props: Props) {
 
   warning(
     Object.keys(other).length === 0,
-    `Material-UI: unsupported properties received ${JSON.stringify(other)} by \`<Hidden />\`.`,
+    `Material-Next: unsupported properties received ${JSON.stringify(other)} by \`<Hidden />\`.`,
   );
 
   let visible = true;

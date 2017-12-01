@@ -6,7 +6,7 @@ const webpack = require('webpack');
 const browserStack = {
   username: process.env.BROWSERSTACK_USERNAME,
   accessKey: process.env.BROWSERSTACK_ACCESS_KEY,
-  build: `material-ui-${new Date().toISOString()}`,
+  build: `material-next-${new Date().toISOString()}`,
 };
 
 // Karma configuration
@@ -78,7 +78,7 @@ module.exports = function setKarmaConfig(config) {
       },
       resolve: {
         alias: {
-          'material-ui': path.resolve(__dirname, '../src'),
+          'material-next': path.resolve(__dirname, '../src'),
           sinon: 'sinon/pkg/sinon.js',
         },
         extensions: ['.js', '.json'],

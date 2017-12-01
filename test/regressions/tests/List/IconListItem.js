@@ -1,8 +1,8 @@
 // @flow
 
 import React from 'react';
-import Icon from 'material-ui/Icon';
-import { ListItem, ListItemText, ListItemIcon } from 'material-ui/List';
+import Icon from '@material-next/core/Icon';
+import { ListItem, ListItemText, ListItemIcon } from '@material-next/core/List';
 
 export default function IconListItem() {
   return (

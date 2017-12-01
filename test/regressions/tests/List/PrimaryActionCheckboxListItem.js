@@ -1,9 +1,9 @@
 // @flow
 
 import React from 'react';
-import { ListItem, ListItemText, ListItemSecondaryAction } from 'material-ui/List';
-import Checkbox from 'material-ui/Checkbox';
-import IconButton from 'material-ui/IconButton';
+import { ListItem, ListItemText, ListItemSecondaryAction } from '@material-next/core/List';
+import Checkbox from '@material-next/core/Checkbox';
+import IconButton from '@material-next/core/IconButton';
 
 export default function PrimaryActionCheckboxListItem() {
   return (

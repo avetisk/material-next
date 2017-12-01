@@ -1,9 +1,9 @@
 /* eslint-disable flowtype/require-valid-file-annotation */
 
 import React from 'react';
-import Button from 'material-ui/Button';
-import Snackbar from 'material-ui/Snackbar';
-import Slide from 'material-ui/transitions/Slide';
+import Button from '@material-next/core/Button';
+import Snackbar from '@material-next/core/Snackbar';
+import Slide from '@material-next/core/transitions/Slide';
 
 function TransitionLeft(props) {
   return <Slide direction="left" {...props} />;

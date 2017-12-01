@@ -1,7 +1,7 @@
 {
-  "name": "material-ui-build-next",
+  "name": "@material-next/core-build",
   "private": true,
-  "author": "Material-UI Team",
+  "author": "Material-Next Team",
   "version": "1.0.0-beta.22",
   "description": "React components that implement Google's Material Design.",
   "main": "./src/index.js",
@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mui-org/material-ui.git"
+    "url": "https://github.com/material-next/material-next.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mui-org/material-ui/issues"
+    "url": "https://github.com/material-next/material-next/issues"
   },
   "homepage": "http://material-ui.com/",
   "scripts": {

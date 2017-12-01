@@ -1,8 +1,8 @@
 // @flow
 
 import React from 'react';
-import Checkbox from 'material-ui/Checkbox';
-import { FormControlLabel } from 'material-ui/Form';
+import Checkbox from '@material-next/core/Checkbox';
+import { FormControlLabel } from '@material-next/core/Form';
 
 export default function DisabledCheckbox() {
   return (

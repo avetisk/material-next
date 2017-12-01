@@ -47,7 +47,7 @@ describe('createPalette()', () => {
     assert.strictEqual(consoleErrorMock.callCount(), 1);
     assert.match(
       consoleErrorMock.args()[0][0],
-      /Material-UI: the palette type `foo` is not supported/,
+      /Material-Next: the palette type `foo` is not supported/,
     );
   });
 
@@ -56,7 +56,7 @@ describe('createPalette()', () => {
     assert.strictEqual(consoleErrorMock.callCount(), 2);
     assert.match(
       consoleErrorMock.args()[1][0],
-      /Material-UI: primary color is missing the following hues: 50,100,200,300,400/,
+      /Material-Next: primary color is missing the following hues: 50,100,200,300,400/,
     );
   });
 
@@ -65,7 +65,7 @@ describe('createPalette()', () => {
     assert.strictEqual(consoleErrorMock.callCount(), 3);
     assert.match(
       consoleErrorMock.args()[2][0],
-      /Material-UI: secondary color is missing the following hues: 50,100,200,300,400/,
+      /Material-Next: secondary color is missing the following hues: 50,100,200,300,400/,
     );
   });
 
@@ -74,7 +74,7 @@ describe('createPalette()', () => {
     assert.strictEqual(consoleErrorMock.callCount(), 4);
     assert.match(
       consoleErrorMock.args()[3][0],
-      /Material-UI: error color is missing the following hues: 50,100,200,300,400/,
+      /Material-Next: error color is missing the following hues: 50,100,200,300,400/,
     );
   });
 });

@@ -2,13 +2,13 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Card, { CardContent, CardMedia } from 'material-ui/Card';
-import IconButton from 'material-ui/IconButton';
-import Typography from 'material-ui/Typography';
-import SkipPreviousIcon from 'material-ui-icons/SkipPrevious';
-import PlayArrowIcon from 'material-ui-icons/PlayArrow';
-import SkipNextIcon from 'material-ui-icons/SkipNext';
+import { withStyles } from '@material-next/core/styles';
+import Card, { CardContent, CardMedia } from '@material-next/core/Card';
+import IconButton from '@material-next/core/IconButton';
+import Typography from '@material-next/core/Typography';
+import SkipPreviousIcon from '@material-next/icons/SkipPrevious';
+import PlayArrowIcon from '@material-next/icons/PlayArrow';
+import SkipNextIcon from '@material-next/icons/SkipNext';
 
 const styles = theme => ({
   card: {

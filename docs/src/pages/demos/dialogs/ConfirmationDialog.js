@@ -3,12 +3,12 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Button from 'material-ui/Button';
-import List, { ListItem, ListItemText } from 'material-ui/List';
-import Dialog, { DialogActions, DialogContent, DialogTitle } from 'material-ui/Dialog';
-import Radio, { RadioGroup } from 'material-ui/Radio';
-import { FormControlLabel } from 'material-ui/Form';
+import { withStyles } from '@material-next/core/styles';
+import Button from '@material-next/core/Button';
+import List, { ListItem, ListItemText } from '@material-next/core/List';
+import Dialog, { DialogActions, DialogContent, DialogTitle } from '@material-next/core/Dialog';
+import Radio, { RadioGroup } from '@material-next/core/Radio';
+import { FormControlLabel } from '@material-next/core/Form';
 
 const options = [
   'None',

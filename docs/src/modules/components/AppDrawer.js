@@ -3,13 +3,13 @@
 import React from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import List from 'material-ui/List';
-import Toolbar from 'material-ui/Toolbar';
-import Drawer from 'material-ui/Drawer';
-import Typography from 'material-ui/Typography';
-import Divider from 'material-ui/Divider';
-import Hidden from 'material-ui/Hidden';
+import { withStyles } from '@material-next/core/styles';
+import List from '@material-next/core/List';
+import Toolbar from '@material-next/core/Toolbar';
+import Drawer from '@material-next/core/Drawer';
+import Typography from '@material-next/core/Typography';
+import Divider from '@material-next/core/Divider';
+import Hidden from '@material-next/core/Hidden';
 import AppDrawerNavItem from 'docs/src/modules/components/AppDrawerNavItem';
 import Link from 'docs/src/modules/components/Link';
 import { pageToTitle } from 'docs/src/modules/utils/helpers';
@@ -81,7 +81,7 @@ function reduceChildRoutes(props, activePage, items, childPage, index) {
   return items;
 }
 
-const GITHUB_RELEASE_BASE_URL = 'https://github.com/mui-org/material-ui/releases/tag/';
+const GITHUB_RELEASE_BASE_URL = 'https://github.com/@material-next/core/@material-next/core/releases/tag/';
 
 function AppDrawer(props: Object, context: Object) {
   const { classes, className, disablePermanent, mobileOpen, onRequestClose } = props;
@@ -92,7 +92,7 @@ function AppDrawer(props: Object, context: Object) {
         <Toolbar className={classes.toolbar}>
           <Link className={classes.title} href="/" onClick={onRequestClose}>
             <Typography type="title" gutterBottom color="inherit">
-              Material-UI
+              Material-Next
             </Typography>
           </Link>
           {process.env.MATERIAL_UI_VERSION ? (

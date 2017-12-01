@@ -1,6 +1,6 @@
 # API
 
-We have learned a lot regarding how people use Material-UI.
+We have learned a lot regarding how people use Material-Next.
 The 1.x.x rewrite allowed us to completely rethink our component API.
 
 > API design is hard because you can make it seem simple but it's actually deceptively complex, or make it actually simple but seem complex.

@@ -1,9 +1,9 @@
 /* eslint-disable flowtype/require-valid-file-annotation */
 
 import React from 'react';
-import DeleteIcon from 'material-ui-icons/Delete';
-import IconButton from 'material-ui/IconButton';
-import Tooltip from 'material-ui/Tooltip';
+import DeleteIcon from '@material-next/icons/Delete';
+import IconButton from '@material-next/core/IconButton';
+import Tooltip from '@material-next/core/Tooltip';
 
 class ControlledTooltips extends React.Component {
   state = {

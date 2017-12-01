@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import injectSheet from 'react-jss/lib/injectSheet';
-import Typography from 'material-ui/Typography';
+import Typography from '@material-next/core/Typography';
 
 // 1. We define the styles.
 const styles = theme => ({

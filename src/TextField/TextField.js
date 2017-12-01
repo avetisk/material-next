@@ -198,7 +198,7 @@ function TextField(props: Props) {
 
   warning(
     !select || Boolean(children),
-    'Material-UI: `children` must be passed when using the `TextField` component with `select`.',
+    'Material-Next: `children` must be passed when using the `TextField` component with `select`.',
   );
 
   const InputComponent = (

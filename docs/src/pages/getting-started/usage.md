@@ -1,6 +1,6 @@
 # Usage
 
-Material-UI components work in isolation.
+Material-Next components work in isolation.
 **They are self-supporting**, they will inject, and only inject, the styles they need to display.
 They don't rely on any global styles like [normalize.css](https://github.com/necolas/normalize.css/).
 You can use any of the components as demonstrated in the documentation.

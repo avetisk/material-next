@@ -19,10 +19,10 @@ export function focusKeyPressed(pressed) {
 }
 
 export function detectKeyboardFocus(instance, element, callback, attempt = 1) {
-  warning(instance.keyboardFocusCheckTime, 'Material-UI: missing instance.keyboardFocusCheckTime');
+  warning(instance.keyboardFocusCheckTime, 'Material-Next: missing instance.keyboardFocusCheckTime');
   warning(
     instance.keyboardFocusMaxCheckTimes,
-    'Material-UI: missing instance.keyboardFocusMaxCheckTimes',
+    'Material-Next: missing instance.keyboardFocusMaxCheckTimes',
   );
 
   instance.keyboardFocusTimeout = setTimeout(() => {

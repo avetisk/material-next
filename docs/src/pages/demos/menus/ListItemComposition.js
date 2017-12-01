@@ -2,13 +2,13 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { MenuList, MenuItem } from 'material-ui/Menu';
-import Paper from 'material-ui/Paper';
-import { withStyles } from 'material-ui/styles';
-import { ListItemIcon, ListItemText } from 'material-ui/List';
-import InboxIcon from 'material-ui-icons/MoveToInbox';
-import DraftsIcon from 'material-ui-icons/Drafts';
-import SendIcon from 'material-ui-icons/Send';
+import { MenuList, MenuItem } from '@material-next/core/Menu';
+import Paper from '@material-next/core/Paper';
+import { withStyles } from '@material-next/core/styles';
+import { ListItemIcon, ListItemText } from '@material-next/core/List';
+import InboxIcon from '@material-next/icons/MoveToInbox';
+import DraftsIcon from '@material-next/icons/Drafts';
+import SendIcon from '@material-next/icons/Send';
 
 const styles = theme => ({
   menuItem: {

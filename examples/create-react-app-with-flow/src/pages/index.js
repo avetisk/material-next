@@ -1,15 +1,15 @@
 // @flow
 
 import React, { Component } from 'react';
-import Button from 'material-ui/Button';
+import Button from '@material-next/core/Button';
 import Dialog, {
   DialogTitle,
   DialogContent,
   DialogContentText,
   DialogActions,
-} from 'material-ui/Dialog';
-import Typography from 'material-ui/Typography';
-import { withStyles } from 'material-ui/styles';
+} from '@material-next/core/Dialog';
+import Typography from '@material-next/core/Typography';
+import { withStyles } from '@material-next/core/styles';
 import withRoot from '../components/withRoot';
 
 const styles = {
@@ -64,7 +64,7 @@ class Index extends Component<ProvidedProps & Props, State> {
           </DialogActions>
         </Dialog>
         <Typography type="display1" gutterBottom>
-          Material-UI
+          Material-Next
         </Typography>
         <Typography type="subheading" gutterBottom>
           example project

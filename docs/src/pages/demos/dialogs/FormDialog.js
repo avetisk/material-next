@@ -1,14 +1,14 @@
 /* eslint-disable flowtype/require-valid-file-annotation */
 
 import React from 'react';
-import Button from 'material-ui/Button';
-import TextField from 'material-ui/TextField';
+import Button from '@material-next/core/Button';
+import TextField from '@material-next/core/TextField';
 import Dialog, {
   DialogActions,
   DialogContent,
   DialogContentText,
   DialogTitle,
-} from 'material-ui/Dialog';
+} from '@material-next/core/Dialog';
 
 export default class FormDialog extends React.Component {
   state = {

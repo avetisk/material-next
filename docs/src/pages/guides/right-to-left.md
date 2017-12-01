@@ -1,6 +1,6 @@
 # Right-to-left
 
-To change the direction of Material-UI components you must follow the following steps:
+To change the direction of Material-Next components you must follow the following steps:
 
 ## Steps
 

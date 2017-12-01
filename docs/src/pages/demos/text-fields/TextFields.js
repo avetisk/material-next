@@ -2,9 +2,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import MenuItem from 'material-ui/Menu/MenuItem';
-import TextField from 'material-ui/TextField';
+import { withStyles } from '@material-next/core/styles';
+import MenuItem from '@material-next/core/Menu/MenuItem';
+import TextField from '@material-next/core/TextField';
 
 const styles = theme => ({
   container: {

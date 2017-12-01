@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import SvgIcon from 'material-ui/SvgIcon';
+import SvgIcon from '@material-next/core/SvgIcon';
 
 const HomeIcon = props => (
   <SvgIcon {...props}>

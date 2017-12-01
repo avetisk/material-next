@@ -85,7 +85,7 @@ export default function createPalette(palette: Object) {
   const { primary = indigo, secondary = pink, error = red, type = 'light', ...other } = palette;
   const shades = { dark, light };
 
-  warning(Boolean(shades[type]), `Material-UI: the palette type \`${type}\` is not supported.`);
+  warning(Boolean(shades[type]), `Material-Next: the palette type \`${type}\` is not supported.`);
 
   const paletteOutput = deepmerge(
     {
@@ -124,8 +124,8 @@ export default function createPalette(palette: Object) {
       warning(
         missing.length === 0,
         [
-          `Material-UI: ${name} color is missing the following hues: ${missing.join(',')}`,
-          'See the default colors, indigo, or pink, as exported from material-ui/colors.',
+          `Material-Next: ${name} color is missing the following hues: ${missing.join(',')}`,
+          'See the default colors, indigo, or pink, as exported from @material-next/core/colors.',
         ].join('\n'),
       );
     };

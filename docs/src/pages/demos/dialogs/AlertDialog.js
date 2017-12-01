@@ -1,13 +1,13 @@
 /* eslint-disable flowtype/require-valid-file-annotation */
 
 import React from 'react';
-import Button from 'material-ui/Button';
+import Button from '@material-next/core/Button';
 import Dialog, {
   DialogActions,
   DialogContent,
   DialogContentText,
   DialogTitle,
-} from 'material-ui/Dialog';
+} from '@material-next/core/Dialog';
 
 class AlertDialog extends React.Component {
   state = {

@@ -3,15 +3,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { withStyles } from 'material-ui/styles';
-import Drawer from 'material-ui/Drawer';
-import AppBar from 'material-ui/AppBar';
-import Toolbar from 'material-ui/Toolbar';
-import List from 'material-ui/List';
-import { MenuItem } from 'material-ui/Menu';
-import TextField from 'material-ui/TextField';
-import Typography from 'material-ui/Typography';
-import Divider from 'material-ui/Divider';
+import { withStyles } from '@material-next/core/styles';
+import Drawer from '@material-next/core/Drawer';
+import AppBar from '@material-next/core/AppBar';
+import Toolbar from '@material-next/core/Toolbar';
+import List from '@material-next/core/List';
+import { MenuItem } from '@material-next/core/Menu';
+import TextField from '@material-next/core/TextField';
+import Typography from '@material-next/core/Typography';
+import Divider from '@material-next/core/Divider';
 import { mailFolderListItems, otherMailFolderListItems } from './tileData';
 
 const drawerWidth = 240;

@@ -3,12 +3,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { withStyles } from 'material-ui/styles';
-import { CircularProgress } from 'material-ui/Progress';
-import green from 'material-ui/colors/green';
-import Button from 'material-ui/Button';
-import CheckIcon from 'material-ui-icons/Check';
-import SaveIcon from 'material-ui-icons/Save';
+import { withStyles } from '@material-next/core/styles';
+import { CircularProgress } from '@material-next/core/Progress';
+import green from '@material-next/core/colors/green';
+import Button from '@material-next/core/Button';
+import CheckIcon from '@material-next/icons/Check';
+import SaveIcon from '@material-next/icons/Save';
 
 const styles = theme => ({
   root: {

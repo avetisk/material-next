@@ -3,16 +3,16 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import AppBar from 'material-ui/AppBar';
-import Tabs, { Tab } from 'material-ui/Tabs';
-import PhoneIcon from 'material-ui-icons/Phone';
-import FavoriteIcon from 'material-ui-icons/Favorite';
-import PersonPinIcon from 'material-ui-icons/PersonPin';
-import HelpIcon from 'material-ui-icons/Help';
-import ShoppingBasket from 'material-ui-icons/ShoppingBasket';
-import ThumbDown from 'material-ui-icons/ThumbDown';
-import ThumbUp from 'material-ui-icons/ThumbUp';
+import { withStyles } from '@material-next/core/styles';
+import AppBar from '@material-next/core/AppBar';
+import Tabs, { Tab } from '@material-next/core/Tabs';
+import PhoneIcon from '@material-next/icons/Phone';
+import FavoriteIcon from '@material-next/icons/Favorite';
+import PersonPinIcon from '@material-next/icons/PersonPin';
+import HelpIcon from '@material-next/icons/Help';
+import ShoppingBasket from '@material-next/icons/ShoppingBasket';
+import ThumbDown from '@material-next/icons/ThumbDown';
+import ThumbUp from '@material-next/icons/ThumbUp';
 
 function TabContainer(props) {
   return <div style={{ padding: 8 * 3 }}>{props.children}</div>;
