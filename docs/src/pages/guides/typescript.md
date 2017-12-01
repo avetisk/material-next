@@ -87,3 +87,60 @@ const DecoratedNoProps = decorate<{}>( // <-- note the type argument!
 ```
 
 To avoid worrying about this edge case it may be a good habit to always provide an explicit type argument to `decorate`.
+
+## Customization of `Theme`
+
+When adding custom properties to the `Theme`, you may continue to use it in a strongly typed way by exploiting 
+[Typescript's module augmentation](https://www.typescriptlang.org/docs/handbook/declaration-merging.html#module-augmentation).
+
+The following example adds an `appDrawer` property that is merged into the one exported by `material-ui`:
+
+```jsx
+import { Theme } from 'material-ui/styles/createMuiTheme'
+import { Breakpoint } from 'material-ui/styles/createBreakpoints'
+
+declare module 'material-ui/styles/createMuiTheme' {
+  interface Theme {
+    appDrawer: {
+      width: React.CSSProperties['width']
+      breakpoint: Breakpoint
+    }
+  }
+  // allow configuration using `createMuiTheme`
+  interface ThemeOptions {
+    appDrawer?: {
+      width?: React.CSSProperties['width']
+      breakpoint?: Breakpoint
+    }
+  }
+}
+```
+
+And a custom theme factory with additional defaulted options:
+
+```js
+import {default as createMuiTheme, ThemeOptions} from 'material-ui/styles/createMuiTheme'
+import { merge } from 'lodash'
+
+export default function createMyTheme(options: ThemeOptions) {
+  return createMuiTheme(
+    merge(
+      {
+        appDrawer: {
+          width: 225,
+          breakpoint: 'lg',
+        },
+      },
+      options,
+    ),
+  )
+}
+```
+
+This could be used like:
+
+```js
+import createMyTheme from './styles/createMyTheme'
+
+const theme = createMyTheme({appDrawer: {breakpoint: 'md'}})
+```
