@@ -55,7 +55,7 @@
     "argos": "argos upload test/regressions/screenshots/chrome --token $ARGOS_TOKEN || true",
     "version": "yarn build",
     "release": "np --no-publish --any-branch",
-    "postrelease": "yarn docs:deploy && npm publish build --tag next"
+    "postrelease": "yarn docs:deploy && npm publish build"
   },
   "peerDependencies": {
     "react": "^15.3.0 || ^16.0.0",
