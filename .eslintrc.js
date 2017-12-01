@@ -79,7 +79,7 @@ module.exports = {
     'react/default-props-match-prop-types': 'off', // Buggy
     'react/jsx-curly-brace-presence': 'off', // Buggy
 
-    '@material-next/core/docgen-ignore-before-comment': 'error',
+    'material-next/docgen-ignore-before-comment': 'error',
 
     'mocha/handle-done-callback': 'error',
     'mocha/no-exclusive-tests': 'error',

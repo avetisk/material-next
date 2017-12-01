@@ -19,8 +19,3 @@ build
 node_modules
 package-lock.json
 *.log
-
-# Editor files
-.idea
-.vscode
-

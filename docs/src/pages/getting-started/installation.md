@@ -7,7 +7,7 @@ Material-Next is available as an [npm package](https://www.npmjs.org/package/@ma
 To install and save in your `package.json` dependencies, run:
 
 ```
-npm install @material-next/core --save
+npm install --save @material-next/core
 ```
 
 ## Roboto Font

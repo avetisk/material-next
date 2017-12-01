@@ -25,7 +25,8 @@ const styles = {
 };
 
 const demoRegexp = /^demo='(.*)'$/;
-const SOURCE_CODE_ROOT_URL = 'https://github.com/@material-next/core/@material-next/core/tree/v1-beta';
+const SOURCE_CODE_ROOT_URL =
+  'https://github.com/@material-next/core/@material-next/core/tree/v1-beta';
 
 type InjectedProps = {
   classes: Object,

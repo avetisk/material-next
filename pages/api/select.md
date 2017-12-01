@@ -17,7 +17,7 @@ filename: /src/Select/Select.js
 | <span style="color: #31a148">children *</span> | $ReadOnlyArray |  | The option elements to populate the select with. Can be some `MenuItem` when `native` is false and `option` when `native` is true. |
 | classes | Object |  | Useful to extend the style applied to components. |
 | displayEmpty | boolean | false | If `true`, the selected item is displayed even if its value is empty. You can only use it when the `native` property is `false` (default). |
-| input | Element | &lt;Input /> | An `Input` element; does not have to be a material-ui specific `Input`. |
+| input | Element | &lt;Input /> | An `Input` element; does not have to be a material-next specific `Input`. |
 | multiple | boolean | false | If true, `value` must be an array and the menu will support multiple selections. You can only use it when the `native` property is `false` (default). |
 | native | boolean | false | If `true`, the component will be using a native `select` element. |
 | renderValue | Function |  | Render the selected value. You can only use it when the `native` property is `false` (default). |
@@ -36,7 +36,7 @@ This property accepts the following keys:
 - `icon`
 
 Have a look at [overriding with classes](/customization/overrides#overriding-with-classes) section
-and the [implementation of the component](https://github.com/material-next/material-next/tree/v1-beta/src/Select/Select.js)
+and the [implementation of the component](https://github.com/@material-next/core/@material-next/core/tree/v1-beta/src/Select/Select.js)
 for more detail.
 
 If using the `overrides` key of the theme as documented

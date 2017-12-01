@@ -1,7 +1,12 @@
 // @flow
 
 import React from 'react';
-import { DialogActions, DialogContent, DialogContentText, DialogTitle } from '@material-next/core/Dialog';
+import {
+  DialogActions,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
+} from '@material-next/core/Dialog';
 import Paper from '@material-next/core/Paper';
 import Button from '@material-next/core/Button';
 

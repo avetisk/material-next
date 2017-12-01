@@ -12,7 +12,7 @@ A simple wrapper to apply `List` styles to an `Icon` or `SvgIcon`.
 
 | Name | Type | Default | Description |
 |:-----|:-----|:--------|:------------|
-| <span style="color: #31a148">children *</span> | Element |  | The content of the component, normally `Icon`, `SvgIcon`, or a `material-ui-icons` SVG icon component. |
+| <span style="color: #31a148">children *</span> | Element |  | The content of the component, normally `Icon`, `SvgIcon`, or a `@material-next/icons` SVG icon component. |
 | classes | Object |  | Useful to extend the style applied to components. |
 
 Any other properties supplied will be [spread to the root element](/guides/api#spread).
@@ -24,7 +24,7 @@ This property accepts the following keys:
 - `root`
 
 Have a look at [overriding with classes](/customization/overrides#overriding-with-classes) section
-and the [implementation of the component](https://github.com/material-next/material-next/tree/v1-beta/src/List/ListItemIcon.js)
+and the [implementation of the component](https://github.com/@material-next/core/@material-next/core/tree/v1-beta/src/List/ListItemIcon.js)
 for more detail.
 
 If using the `overrides` key of the theme as documented

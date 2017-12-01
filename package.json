@@ -3,7 +3,7 @@
   "private": true,
   "author": "Material-Next Team",
   "version": "1.0.0-beta.22",
-  "description": "React components that implement Google's Material Design.",
+  "description": "Extensible React components that implement Material Design UI.",
   "main": "./src/index.js",
   "keywords": [
     "react",
@@ -123,7 +123,7 @@
     "eslint-plugin-flowtype": "^2.39.1",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-material-ui": "file:packages/eslint-plugin-material-ui",
+    "eslint-plugin-material-next": "file:packages/eslint-plugin-material-next",
     "eslint-plugin-mocha": "^4.11.0",
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.4.0",
