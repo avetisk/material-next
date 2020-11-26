@@ -149,7 +149,7 @@
     "karma-webpack": "^2.0.6",
     "marked": "^0.3.6",
     "mocha": "^4.0.1",
-    "next": "^4.1.4",
+    "next": "^9.3.2",
     "nprogress": "^0.2.0",
     "nyc": "^11.3.0",
     "phantomjs-prebuilt": "^2.1.16",
